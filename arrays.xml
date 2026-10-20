@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="branch_integer_array" />
+<style name="branch_string_array" />
+<style name="lunar_first_of_month" />
+<style name="lunar_str" />
+<style name="month_string_array" />
+<style name="solar_festival" />
+<style name="solar_term" />
+<style name="special_festivals" />
+<style name="tradition_festival" />
+<style name="trunk_integer_array" />
+<style name="trunk_string_array" />
+<style name="week_string_array" />
+<style name="year_view_week_string_array" />
+</resources>
