@@ -1,0 +1,15 @@
+{
+  "UserAgent": "aws-solution/clickstream",
+  "Version": "1.0",
+  "analytics": {
+    "plugins": {
+      "awsClickstreamPlugin": {
+        "appId": "jf_event_icsee",
+        "endpoint": "https://eventlog-aws.jftechws.com/collect",
+        "isCompressEvents": true,
+        "autoFlushEventsInterval": 10000,
+        "isTrackAppExceptionEvents": false
+      }
+    }
+  }
+}
