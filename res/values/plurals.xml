@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<plurals name="bottom_sheet_title"><item quantity="other">%d matches found</item><item quantity="one">%d match found</item></plurals>
+<plurals name="mtrl_badge_content_description"><item quantity="other">%d new notifications</item><item quantity="one">%d new notification</item></plurals>
+</resources>
