@@ -1,0 +1,1104 @@
+{
+  "RESULT" : [
+    {
+      "name" : "Ascension",
+      "index" : "AC",
+      "areaCode" : "+247"
+    },
+    {
+      "name" : "Andorra",
+      "index" : "AD",
+      "areaCode" : "+376"
+    },
+    {
+      "name" : "Spojené arabské emiráty",
+      "index" : "AE",
+      "areaCode" : "+971"
+    },
+    {
+      "name" : "Afghánistán",
+      "index" : "AF",
+      "areaCode" : "+93"
+    },
+    {
+      "name" : "Antigua a Barbuda",
+      "index" : "AG",
+      "areaCode" : "+1268"
+    },
+    {
+      "name" : "Anguilla",
+      "index" : "AI",
+      "areaCode" : "+1264"
+    },
+    {
+      "name" : "Albánie",
+      "index" : "AL",
+      "areaCode" : "+355"
+    },
+    {
+      "name" : "Arménie",
+      "index" : "AM",
+      "areaCode" : "+374"
+    },
+    {
+      "name" : "Angola",
+      "index" : "AO",
+      "areaCode" : "+244"
+    },
+    {
+      "name" : "Argentina",
+      "index" : "AR",
+      "areaCode" : "+54"
+    },
+    {
+      "name" : "Americká Samoa",
+      "index" : "AS",
+      "areaCode" : "+1684"
+    },
+    {
+      "name" : "Rakousko",
+      "index" : "AT",
+      "areaCode" : "+43"
+    },
+    {
+      "name" : "Austrálie",
+      "index" : "AU",
+      "areaCode" : "+61"
+    },
+    {
+      "name" : "Aruba",
+      "index" : "AW",
+      "areaCode" : "+297"
+    },
+    {
+      "name" : "Ázerbájdžán",
+      "index" : "AZ",
+      "areaCode" : "+994"
+    },
+    {
+      "name" : "Bosna a Hercegovina",
+      "index" : "BA",
+      "areaCode" : "+387"
+    },
+    {
+      "name" : "Barbados",
+      "index" : "BB",
+      "areaCode" : "+1246"
+    },
+    {
+      "name" : "Bangladéš",
+      "index" : "BD",
+      "areaCode" : "+880"
+    },
+    {
+      "name" : "Belgie",
+      "index" : "BE",
+      "areaCode" : "+32"
+    },
+    {
+      "name" : "Burkina Faso",
+      "index" : "BF",
+      "areaCode" : "+226"
+    },
+    {
+      "name" : "Bulharsko",
+      "index" : "BG",
+      "areaCode" : "+359"
+    },
+    {
+      "name" : "Bahrajn",
+      "index" : "BH",
+      "areaCode" : "+973"
+    },
+    {
+      "name" : "Burundi",
+      "index" : "BI",
+      "areaCode" : "+257"
+    },
+    {
+      "name" : "Benin",
+      "index" : "BJ",
+      "areaCode" : "+229"
+    },
+    {
+      "name" : "Svatý Bartoloměj",
+      "index" : "BL",
+      "areaCode" : "+970"
+    },
+    {
+      "name" : "Bermudy",
+      "index" : "BM",
+      "areaCode" : "+1441"
+    },
+    {
+      "name" : "Brunej",
+      "index" : "BN",
+      "areaCode" : "+673"
+    },
+    {
+      "name" : "Bolívie",
+      "index" : "BO",
+      "areaCode" : "+591"
+    },
+    {
+      "name" : "Brazílie",
+      "index" : "BR",
+      "areaCode" : "+55"
+    },
+    {
+      "name" : "Bahamy",
+      "index" : "BS",
+      "areaCode" : "+1242"
+    },
+    {
+      "name" : "Bhútán",
+      "index" : "BT",
+      "areaCode" : "+975"
+    },
+    {
+      "name" : "Botswana",
+      "index" : "BW",
+      "areaCode" : "+267"
+    },
+    {
+      "name" : "Bělorusko",
+      "index" : "BY",
+      "areaCode" : "+375"
+    },
+    {
+      "name" : "Belize",
+      "index" : "BZ",
+      "areaCode" : "+501"
+    },
+    {
+      "name" : "Kanada",
+      "index" : "CA",
+      "areaCode" : "+1"
+    },
+    {
+      "name" : "Kongo – Kinshasa",
+      "index" : "CD",
+      "areaCode" : "+243"
+    },
+    {
+      "name" : "Středoafrická republika",
+      "index" : "CF",
+      "areaCode" : "+236"
+    },
+    {
+      "name" : "Kongo – Brazzaville",
+      "index" : "CG",
+      "areaCode" : "+242"
+    },
+    {
+      "name" : "Švýcarsko",
+      "index" : "CH",
+      "areaCode" : "+41"
+    },
+    {
+      "name" : "Côte d’Ivoire",
+      "index" : "CI",
+      "areaCode" : "+225"
+    },
+    {
+      "name" : "Cookovy ostrovy",
+      "index" : "CK",
+      "areaCode" : "+682"
+    },
+    {
+      "name" : "Chile",
+      "index" : "CL",
+      "areaCode" : "+56"
+    },
+    {
+      "name" : "Kamerun",
+      "index" : "CM",
+      "areaCode" : "+237"
+    },
+    {
+      "name" : "Čína – kontinentální",
+      "index" : "CN",
+      "areaCode" : "+86"
+    },
+    {
+      "name" : "Kolumbie",
+      "index" : "CO",
+      "areaCode" : "+57"
+    },
+    {
+      "name" : "Kostarika",
+      "index" : "CR",
+      "areaCode" : "+506"
+    },
+    {
+      "name" : "Kuba",
+      "index" : "CU",
+      "areaCode" : "+53"
+    },
+    {
+      "name" : "Kapverdy",
+      "index" : "CV",
+      "areaCode" : "+238"
+    },
+    {
+      "name" : "Curaçao",
+      "index" : "CW",
+      "areaCode" : "+599"
+    },
+    {
+      "name" : "Kypr",
+      "index" : "CY",
+      "areaCode" : "+357"
+    },
+    {
+      "name" : "Česko",
+      "index" : "CZ",
+      "areaCode" : "+420"
+    },
+    {
+      "name" : "Německo",
+      "index" : "DE",
+      "areaCode" : "+49"
+    },
+    {
+      "name" : "Džibutsko",
+      "index" : "DJ",
+      "areaCode" : "+253"
+    },
+    {
+      "name" : "Dánsko",
+      "index" : "DK",
+      "areaCode" : "+45"
+    },
+    {
+      "name" : "Dominika",
+      "index" : "DM",
+      "areaCode" : "+1767"
+    },
+    {
+      "name" : "Dominikánská republika",
+      "index" : "DO",
+      "areaCode" : "+1809"
+    },
+    {
+      "name" : "Alžírsko",
+      "index" : "DZ",
+      "areaCode" : "+213"
+    },
+    {
+      "name" : "Ekvádor",
+      "index" : "EC",
+      "areaCode" : "+593"
+    },
+    {
+      "name" : "Estonsko",
+      "index" : "EE",
+      "areaCode" : "+372"
+    },
+    {
+      "name" : "Egypt",
+      "index" : "EG",
+      "areaCode" : "+20"
+    },
+    {
+      "name" : "Eritrea",
+      "index" : "ER",
+      "areaCode" : "+291"
+    },
+    {
+      "name" : "Španělsko",
+      "index" : "ES",
+      "areaCode" : "+34"
+    },
+    {
+      "name" : "Etiopie",
+      "index" : "ET",
+      "areaCode" : "+251"
+    },
+    {
+      "name" : "Finsko",
+      "index" : "FI",
+      "areaCode" : "+358"
+    },
+    {
+      "name" : "Fidži",
+      "index" : "FJ",
+      "areaCode" : "+679"
+    },
+    {
+      "name" : "Faerské ostrovy",
+      "index" : "FO",
+      "areaCode" : "+298"
+    },
+    {
+      "name" : "Francie",
+      "index" : "FR",
+      "areaCode" : "+33"
+    },
+    {
+      "name" : "Gabon",
+      "index" : "GA",
+      "areaCode" : "+241"
+    },
+    {
+      "name" : "Spojené království",
+      "index" : "GB",
+      "areaCode" : "+44"
+    },
+    {
+      "name" : "Grenada",
+      "index" : "GD",
+      "areaCode" : "+1473"
+    },
+    {
+      "name" : "Gruzie",
+      "index" : "GE",
+      "areaCode" : "+995"
+    },
+    {
+      "name" : "Francouzská Guyana",
+      "index" : "GF",
+      "areaCode" : "+594"
+    },
+    {
+      "name" : "Ghana",
+      "index" : "GH",
+      "areaCode" : "+233"
+    },
+    {
+      "name" : "Gibraltar",
+      "index" : "GI",
+      "areaCode" : "+350"
+    },
+    {
+      "name" : "Grónsko",
+      "index" : "GL",
+      "areaCode" : "+299"
+    },
+    {
+      "name" : "Gambie",
+      "index" : "GM",
+      "areaCode" : "+220"
+    },
+    {
+      "name" : "Guinea",
+      "index" : "GN",
+      "areaCode" : "+224"
+    },
+    {
+      "name" : "Guadeloupe",
+      "index" : "GP",
+      "areaCode" : "+590"
+    },
+    {
+      "name" : "Rovníková Guinea",
+      "index" : "GQ",
+      "areaCode" : "+240"
+    },
+    {
+      "name" : "Řecko",
+      "index" : "GR",
+      "areaCode" : "+30"
+    },
+    {
+      "name" : "Guatemala",
+      "index" : "GT",
+      "areaCode" : "+502"
+    },
+    {
+      "name" : "Guam",
+      "index" : "GU",
+      "areaCode" : "+1671"
+    },
+    {
+      "name" : "Guinea-Bissau",
+      "index" : "GW",
+      "areaCode" : "+245"
+    },
+    {
+      "name" : "Guyana",
+      "index" : "GY",
+      "areaCode" : "+592"
+    },
+    {
+      "name" : "Hongkong",
+      "index" : "HK",
+      "areaCode" : "+852"
+    },
+    {
+      "name" : "Honduras",
+      "index" : "HN",
+      "areaCode" : "+504"
+    },
+    {
+      "name" : "Chorvatsko",
+      "index" : "HR",
+      "areaCode" : "+385"
+    },
+    {
+      "name" : "Haiti",
+      "index" : "HT",
+      "areaCode" : "+509"
+    },
+    {
+      "name" : "Maďarsko",
+      "index" : "HU",
+      "areaCode" : "+36"
+    },
+    {
+      "name" : "Indonésie",
+      "index" : "ID",
+      "areaCode" : "+62"
+    },
+    {
+      "name" : "Irsko",
+      "index" : "IE",
+      "areaCode" : "+353"
+    },
+    {
+      "name" : "Izrael",
+      "index" : "IL",
+      "areaCode" : "+972"
+    },
+    {
+      "name" : "Indie",
+      "index" : "IN",
+      "areaCode" : "+91"
+    },
+    {
+      "name" : "Irák",
+      "index" : "IQ",
+      "areaCode" : "+964"
+    },
+    {
+      "name" : "Írán",
+      "index" : "IR",
+      "areaCode" : "+98"
+    },
+    {
+      "name" : "Island",
+      "index" : "IS",
+      "areaCode" : "+354"
+    },
+    {
+      "name" : "Itálie",
+      "index" : "IT",
+      "areaCode" : "+39"
+    },
+    {
+      "name" : "Jamajka",
+      "index" : "JM",
+      "areaCode" : "+1876"
+    },
+    {
+      "name" : "Jordánsko",
+      "index" : "JO",
+      "areaCode" : "+962"
+    },
+    {
+      "name" : "Japonsko",
+      "index" : "JP",
+      "areaCode" : "+81"
+    },
+    {
+      "name" : "Keňa",
+      "index" : "KE",
+      "areaCode" : "+254"
+    },
+    {
+      "name" : "Kyrgyzstán",
+      "index" : "KG",
+      "areaCode" : "+996"
+    },
+    {
+      "name" : "Kambodža",
+      "index" : "KH",
+      "areaCode" : "+855"
+    },
+    {
+      "name" : "Kiribati",
+      "index" : "KI",
+      "areaCode" : "+686"
+    },
+    {
+      "name" : "Komory",
+      "index" : "KM",
+      "areaCode" : "+269"
+    },
+    {
+      "name" : "Svatý Kryštof a Nevis",
+      "index" : "KN",
+      "areaCode" : "+1869"
+    },
+    {
+      "name" : "Severní Korea",
+      "index" : "KP",
+      "areaCode" : "+850"
+    },
+    {
+      "name" : "Jižní Korea",
+      "index" : "KR",
+      "areaCode" : "+82"
+    },
+    {
+      "name" : "Kuvajt",
+      "index" : "KW",
+      "areaCode" : "+965"
+    },
+    {
+      "name" : "Kajmanské ostrovy",
+      "index" : "KY",
+      "areaCode" : "+1345"
+    },
+    {
+      "name" : "Kazachstán",
+      "index" : "KZ",
+      "areaCode" : "+7"
+    },
+    {
+      "name" : "Laos",
+      "index" : "LA",
+      "areaCode" : "+856"
+    },
+    {
+      "name" : "Libanon",
+      "index" : "LB",
+      "areaCode" : "+961"
+    },
+    {
+      "name" : "Svatá Lucie",
+      "index" : "LC",
+      "areaCode" : "+1758"
+    },
+    {
+      "name" : "Lichtenštejnsko",
+      "index" : "LI",
+      "areaCode" : "+423"
+    },
+    {
+      "name" : "Srí Lanka",
+      "index" : "LK",
+      "areaCode" : "+94"
+    },
+    {
+      "name" : "Libérie",
+      "index" : "LR",
+      "areaCode" : "+231"
+    },
+    {
+      "name" : "Lesotho",
+      "index" : "LS",
+      "areaCode" : "+266"
+    },
+    {
+      "name" : "Litva",
+      "index" : "LT",
+      "areaCode" : "+370"
+    },
+    {
+      "name" : "Lucembursko",
+      "index" : "LU",
+      "areaCode" : "+352"
+    },
+    {
+      "name" : "Lotyšsko",
+      "index" : "LV",
+      "areaCode" : "+371"
+    },
+    {
+      "name" : "Libye",
+      "index" : "LY",
+      "areaCode" : "+218"
+    },
+    {
+      "name" : "Maroko",
+      "index" : "MA",
+      "areaCode" : "+212"
+    },
+    {
+      "name" : "Monako",
+      "index" : "MC",
+      "areaCode" : "+377"
+    },
+    {
+      "name" : "Moldavsko",
+      "index" : "MD",
+      "areaCode" : "+373"
+    },
+    {
+      "name" : "Černá Hora",
+      "index" : "ME",
+      "areaCode" : "+382"
+    },
+    {
+      "name" : "Madagaskar",
+      "index" : "MG",
+      "areaCode" : "+261"
+    },
+    {
+      "name" : "Severní Makedonie",
+      "index" : "MKD",
+      "areaCode" : "+389"
+    },
+    {
+      "name" : "Mali",
+      "index" : "ML",
+      "areaCode" : "+223"
+    },
+    {
+      "name" : "Myanmar (Barma)",
+      "index" : "MM",
+      "areaCode" : "+95"
+    },
+    {
+      "name" : "Mongolsko",
+      "index" : "MN",
+      "areaCode" : "+976"
+    },
+    {
+      "name" : "Macao",
+      "index" : "MO",
+      "areaCode" : "+853"
+    },
+    {
+      "name" : "Severní Mariany",
+      "index" : "MP",
+      "areaCode" : "+1670"
+    },
+    {
+      "name" : "Martinik",
+      "index" : "MQ",
+      "areaCode" : "+596"
+    },
+    {
+      "name" : "Mauritánie",
+      "index" : "MR",
+      "areaCode" : "+222"
+    },
+    {
+      "name" : "Montserrat",
+      "index" : "MS",
+      "areaCode" : "+1664"
+    },
+    {
+      "name" : "Malta",
+      "index" : "MT",
+      "areaCode" : "+356"
+    },
+    {
+      "name" : "Mauricius",
+      "index" : "MU",
+      "areaCode" : "+230"
+    },
+    {
+      "name" : "Maledivy",
+      "index" : "MV",
+      "areaCode" : "+960"
+    },
+    {
+      "name" : "Malawi",
+      "index" : "MW",
+      "areaCode" : "+265"
+    },
+    {
+      "name" : "Mexiko",
+      "index" : "MX",
+      "areaCode" : "+52"
+    },
+    {
+      "name" : "Malajsie",
+      "index" : "MY",
+      "areaCode" : "+60"
+    },
+    {
+      "name" : "Mosambik",
+      "index" : "MZ",
+      "areaCode" : "+258"
+    },
+    {
+      "name" : "Namibie",
+      "index" : "NA",
+      "areaCode" : "+264"
+    },
+    {
+      "name" : "Nová Kaledonie",
+      "index" : "NC",
+      "areaCode" : "+687"
+    },
+    {
+      "name" : "Niger",
+      "index" : "NE",
+      "areaCode" : "+227"
+    },
+    {
+      "name" : "Nigérie",
+      "index" : "NG",
+      "areaCode" : "+234"
+    },
+    {
+      "name" : "Nikaragua",
+      "index" : "NI",
+      "areaCode" : "+505"
+    },
+    {
+      "name" : "Nizozemsko",
+      "index" : "NL",
+      "areaCode" : "+31"
+    },
+    {
+      "name" : "Norsko",
+      "index" : "NO",
+      "areaCode" : "+47"
+    },
+    {
+      "name" : "Nepál",
+      "index" : "NP",
+      "areaCode" : "+977"
+    },
+    {
+      "name" : "Nauru",
+      "index" : "NR",
+      "areaCode" : "+674"
+    },
+    {
+      "name" : "Nový Zéland",
+      "index" : "NZ",
+      "areaCode" : "+64"
+    },
+    {
+      "name" : "Omán",
+      "index" : "OM",
+      "areaCode" : "+968"
+    },
+    {
+      "name" : "Panama",
+      "index" : "PA",
+      "areaCode" : "+507"
+    },
+    {
+      "name" : "Peru",
+      "index" : "PE",
+      "areaCode" : "+51"
+    },
+    {
+      "name" : "Francouzská Polynésie",
+      "index" : "PF",
+      "areaCode" : "+689"
+    },
+    {
+      "name" : "Papua-Nová Guinea",
+      "index" : "PG",
+      "areaCode" : "+675"
+    },
+    {
+      "name" : "Filipíny",
+      "index" : "PH",
+      "areaCode" : "+63"
+    },
+    {
+      "name" : "Pákistán",
+      "index" : "PK",
+      "areaCode" : "+92"
+    },
+    {
+      "name" : "Polsko",
+      "index" : "PL",
+      "areaCode" : "+48"
+    },
+    {
+      "name" : "Saint-Pierre a Miquelon",
+      "index" : "PM",
+      "areaCode" : "+508"
+    },
+    {
+      "name" : "Portoriko",
+      "index" : "PR",
+      "areaCode" : "+1787"
+    },
+    {
+      "name" : "Portugalsko",
+      "index" : "PT",
+      "areaCode" : "+351"
+    },
+    {
+      "name" : "Palau",
+      "index" : "PW",
+      "areaCode" : "+680"
+    },
+    {
+      "name" : "Paraguay",
+      "index" : "PY",
+      "areaCode" : "+595"
+    },
+    {
+      "name" : "Katar",
+      "index" : "QA",
+      "areaCode" : "+974"
+    },
+    {
+      "name" : "Réunion",
+      "index" : "RE",
+      "areaCode" : "+262"
+    },
+    {
+      "name" : "Rumunsko",
+      "index" : "RO",
+      "areaCode" : "+40"
+    },
+    {
+      "name" : "Srbsko",
+      "index" : "RS",
+      "areaCode" : "+381"
+    },
+    {
+      "name" : "Rusko",
+      "index" : "RU",
+      "areaCode" : "+7"
+    },
+    {
+      "name" : "Rwanda",
+      "index" : "RW",
+      "areaCode" : "+250"
+    },
+    {
+      "name" : "Saúdská Arábie",
+      "index" : "SA",
+      "areaCode" : "+966"
+    },
+    {
+      "name" : "Šalamounovy ostrovy",
+      "index" : "SB",
+      "areaCode" : "+677"
+    },
+    {
+      "name" : "Seychely",
+      "index" : "SC",
+      "areaCode" : "+248"
+    },
+    {
+      "name" : "Súdán",
+      "index" : "SD",
+      "areaCode" : "+249"
+    },
+    {
+      "name" : "Švédsko",
+      "index" : "SE",
+      "areaCode" : "+46"
+    },
+    {
+      "name" : "Singapur",
+      "index" : "SG",
+      "areaCode" : "+65"
+    },
+    {
+      "name" : "Slovinsko",
+      "index" : "SI",
+      "areaCode" : "+386"
+    },
+    {
+      "name" : "Slovensko",
+      "index" : "SK",
+      "areaCode" : "+421"
+    },
+    {
+      "name" : "Sierra Leone",
+      "index" : "SL",
+      "areaCode" : "+232"
+    },
+    {
+      "name" : "San Marino",
+      "index" : "SM",
+      "areaCode" : "+378"
+    },
+    {
+      "name" : "Senegal",
+      "index" : "SN",
+      "areaCode" : "+221"
+    },
+    {
+      "name" : "Somálsko",
+      "index" : "SO",
+      "areaCode" : "+252"
+    },
+    {
+      "name" : "Surinam",
+      "index" : "SR",
+      "areaCode" : "+597"
+    },
+    {
+      "name" : "Svatý Tomáš a Princův ostrov",
+      "index" : "ST",
+      "areaCode" : "+239"
+    },
+    {
+      "name" : "Salvador",
+      "index" : "SV",
+      "areaCode" : "+503"
+    },
+    {
+      "name" : "Svatý Martin (Nizozemsko)",
+      "index" : "SX",
+      "areaCode" : "+1721"
+    },
+    {
+      "name" : "Sýrie",
+      "index" : "SY",
+      "areaCode" : "+963"
+    },
+    {
+      "name" : "Eswatini",
+      "index" : "SZ",
+      "areaCode" : "+268"
+    },
+    {
+      "name" : "Turks a Caicos",
+      "index" : "TC",
+      "areaCode" : "+1649"
+    },
+    {
+      "name" : "Čad",
+      "index" : "TD",
+      "areaCode" : "+235"
+    },
+    {
+      "name" : "Togo",
+      "index" : "TG",
+      "areaCode" : "+228"
+    },
+    {
+      "name" : "Thajsko",
+      "index" : "TH",
+      "areaCode" : "+66"
+    },
+    {
+      "name" : "Tádžikistán",
+      "index" : "TJ",
+      "areaCode" : "+992"
+    },
+    {
+      "name" : "Východní Timor",
+      "index" : "TL",
+      "areaCode" : "+670"
+    },
+    {
+      "name" : "Turkmenistán",
+      "index" : "TM",
+      "areaCode" : "+993"
+    },
+    {
+      "name" : "Tunisko",
+      "index" : "TN",
+      "areaCode" : "+216"
+    },
+    {
+      "name" : "Tonga",
+      "index" : "TO",
+      "areaCode" : "+676"
+    },
+    {
+      "name" : "Turecko",
+      "index" : "TR",
+      "areaCode" : "+90"
+    },
+    {
+      "name" : "Trinidad a Tobago",
+      "index" : "TT",
+      "areaCode" : "+1868"
+    },
+    {
+      "name" : "Tchaj-wan",
+      "index" : "TW",
+      "areaCode" : "+886"
+    },
+    {
+      "name" : "Tanzanie",
+      "index" : "TZ",
+      "areaCode" : "+255"
+    },
+    {
+      "name" : "Ukrajina",
+      "index" : "UA",
+      "areaCode" : "+380"
+    },
+    {
+      "name" : "Uganda",
+      "index" : "UG",
+      "areaCode" : "+256"
+    },
+    {
+      "name" : "Spojené státy",
+      "index" : "US",
+      "areaCode" : "+1"
+    },
+    {
+      "name" : "Uruguay",
+      "index" : "UY",
+      "areaCode" : "+598"
+    },
+    {
+      "name" : "Uzbekistán",
+      "index" : "UZ",
+      "areaCode" : "+998"
+    },
+    {
+      "name" : "Svatý Vincenc a Grenadiny",
+      "index" : "VC",
+      "areaCode" : "+1784"
+    },
+    {
+      "name" : "Venezuela",
+      "index" : "VE",
+      "areaCode" : "+58"
+    },
+    {
+      "name" : "Britské Panenské ostrovy",
+      "index" : "VG",
+      "areaCode" : "+1340"
+    },
+    {
+      "name" : "Americké Panenské ostrovy",
+      "index" : "VI",
+      "areaCode" : "+1284"
+    },
+    {
+      "name" : "Vietnam",
+      "index" : "VN",
+      "areaCode" : "+84"
+    },
+    {
+      "name" : "Vanuatu",
+      "index" : "VU",
+      "areaCode" : "+678"
+    },
+    {
+      "name" : "Samoa",
+      "index" : "WS",
+      "areaCode" : "+685"
+    },
+    {
+      "name" : "Jemen",
+      "index" : "YE",
+      "areaCode" : "+967"
+    },
+    {
+      "name" : "Mayotte",
+      "index" : "YT",
+      "areaCode" : "+269"
+    },
+    {
+      "name" : "Jihoafrická republika",
+      "index" : "ZA",
+      "areaCode" : "+27"
+    },
+    {
+      "name" : "Zambie",
+      "index" : "ZM",
+      "areaCode" : "+260"
+    },
+    {
+      "name" : "Zimbabwe",
+      "index" : "ZW",
+      "areaCode" : "+263"
+    }
+  ]
+}

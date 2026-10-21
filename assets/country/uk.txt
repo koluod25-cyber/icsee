@@ -1,0 +1,1104 @@
+{
+  "RESULT" : [
+    {
+      "name" : "Сан-Марино",
+      "index" : "SM",
+      "areaCode" : "+378"
+    },
+    {
+      "name" : "Мексика",
+      "index" : "MX",
+      "areaCode" : "+52"
+    },
+    {
+      "name" : "Сенегал",
+      "index" : "SN",
+      "areaCode" : "+221"
+    },
+    {
+      "name" : "Віргінські Острови (США)",
+      "index" : "VI",
+      "areaCode" : "+1284"
+    },
+    {
+      "name" : "Малайзія",
+      "index" : "MY",
+      "areaCode" : "+60"
+    },
+    {
+      "name" : "Бразилія",
+      "index" : "BR",
+      "areaCode" : "+55"
+    },
+    {
+      "name" : "Португалія",
+      "index" : "PT",
+      "areaCode" : "+351"
+    },
+    {
+      "name" : "Сомалі",
+      "index" : "SO",
+      "areaCode" : "+252"
+    },
+    {
+      "name" : "Ємен",
+      "index" : "YE",
+      "areaCode" : "+967"
+    },
+    {
+      "name" : "Мозамбік",
+      "index" : "MZ",
+      "areaCode" : "+258"
+    },
+    {
+      "name" : "Багамські Острови",
+      "index" : "BS",
+      "areaCode" : "+1242"
+    },
+    {
+      "name" : "Кенія",
+      "index" : "KE",
+      "areaCode" : "+254"
+    },
+    {
+      "name" : "Бутан",
+      "index" : "BT",
+      "areaCode" : "+975"
+    },
+    {
+      "name" : "Палау",
+      "index" : "PW",
+      "areaCode" : "+680"
+    },
+    {
+      "name" : "Намібія",
+      "index" : "NA",
+      "areaCode" : "+264"
+    },
+    {
+      "name" : "Гонконг",
+      "index" : "HK",
+      "areaCode" : "+852"
+    },
+    {
+      "name" : "Суринам",
+      "index" : "SR",
+      "areaCode" : "+597"
+    },
+    {
+      "name" : "Вʼєтнам",
+      "index" : "VN",
+      "areaCode" : "+84"
+    },
+    {
+      "name" : "Киргизстан",
+      "index" : "KG",
+      "areaCode" : "+996"
+    },
+    {
+      "name" : "Парагвай",
+      "index" : "PY",
+      "areaCode" : "+595"
+    },
+    {
+      "name" : "Ботсвана",
+      "index" : "BW",
+      "areaCode" : "+267"
+    },
+    {
+      "name" : "Нова Каледонія",
+      "index" : "NC",
+      "areaCode" : "+687"
+    },
+    {
+      "name" : "Еритрея",
+      "index" : "ER",
+      "areaCode" : "+291"
+    },
+    {
+      "name" : "Камбоджа",
+      "index" : "KH",
+      "areaCode" : "+855"
+    },
+    {
+      "name" : "Сан-Томе і Принсіпі",
+      "index" : "ST",
+      "areaCode" : "+239"
+    },
+    {
+      "name" : "Іспанія",
+      "index" : "ES",
+      "areaCode" : "+34"
+    },
+    {
+      "name" : "Гондурас",
+      "index" : "HN",
+      "areaCode" : "+504"
+    },
+    {
+      "name" : "Кірибаті",
+      "index" : "KI",
+      "areaCode" : "+686"
+    },
+    {
+      "name" : "Сальвадор",
+      "index" : "SV",
+      "areaCode" : "+503"
+    },
+    {
+      "name" : "Білорусь",
+      "index" : "BY",
+      "areaCode" : "+375"
+    },
+    {
+      "name" : "Нігер",
+      "index" : "NE",
+      "areaCode" : "+227"
+    },
+    {
+      "name" : "Ефіопія",
+      "index" : "ET",
+      "areaCode" : "+251"
+    },
+    {
+      "name" : "Беліз",
+      "index" : "BZ",
+      "areaCode" : "+501"
+    },
+    {
+      "name" : "Катар",
+      "index" : "QA",
+      "areaCode" : "+974"
+    },
+    {
+      "name" : "Сінт-Мартен",
+      "index" : "SX",
+      "areaCode" : "+1721"
+    },
+    {
+      "name" : "Нігерія",
+      "index" : "NG",
+      "areaCode" : "+234"
+    },
+    {
+      "name" : "Сирія",
+      "index" : "SY",
+      "areaCode" : "+963"
+    },
+    {
+      "name" : "Хорватія",
+      "index" : "HR",
+      "areaCode" : "+385"
+    },
+    {
+      "name" : "Канада",
+      "index" : "CA",
+      "areaCode" : "+1"
+    },
+    {
+      "name" : "Комори",
+      "index" : "KM",
+      "areaCode" : "+269"
+    },
+    {
+      "name" : "Есватіні",
+      "index" : "SZ",
+      "areaCode" : "+268"
+    },
+    {
+      "name" : "Нікарагуа",
+      "index" : "NI",
+      "areaCode" : "+505"
+    },
+    {
+      "name" : "Сент-Кітс і Невіс",
+      "index" : "KN",
+      "areaCode" : "+1869"
+    },
+    {
+      "name" : "Вануату",
+      "index" : "VU",
+      "areaCode" : "+678"
+    },
+    {
+      "name" : "Гаїті",
+      "index" : "HT",
+      "areaCode" : "+509"
+    },
+    {
+      "name" : "Угорщина",
+      "index" : "HU",
+      "areaCode" : "+36"
+    },
+    {
+      "name" : "Конго – Кіншаса",
+      "index" : "CD",
+      "areaCode" : "+243"
+    },
+    {
+      "name" : "Північна Корея",
+      "index" : "KP",
+      "areaCode" : "+850"
+    },
+    {
+      "name" : "Нідерланди",
+      "index" : "NL",
+      "areaCode" : "+31"
+    },
+    {
+      "name" : "Майотта",
+      "index" : "YT",
+      "areaCode" : "+269"
+    },
+    {
+      "name" : "Південна Корея",
+      "index" : "KR",
+      "areaCode" : "+82"
+    },
+    {
+      "name" : "Центральноафриканська Республіка",
+      "index" : "CF",
+      "areaCode" : "+236"
+    },
+    {
+      "name" : "Острови Теркс і Кайкос",
+      "index" : "TC",
+      "areaCode" : "+1649"
+    },
+    {
+      "name" : "Чад",
+      "index" : "TD",
+      "areaCode" : "+235"
+    },
+    {
+      "name" : "Конго – Браззавіль",
+      "index" : "CG",
+      "areaCode" : "+242"
+    },
+    {
+      "name" : "Норвегія",
+      "index" : "NO",
+      "areaCode" : "+47"
+    },
+    {
+      "name" : "Швейцарія",
+      "index" : "CH",
+      "areaCode" : "+41"
+    },
+    {
+      "name" : "Непал",
+      "index" : "NP",
+      "areaCode" : "+977"
+    },
+    {
+      "name" : "Кот-дʼІвуар",
+      "index" : "CI",
+      "areaCode" : "+225"
+    },
+    {
+      "name" : "Того",
+      "index" : "TG",
+      "areaCode" : "+228"
+    },
+    {
+      "name" : "Кувейт",
+      "index" : "KW",
+      "areaCode" : "+965"
+    },
+    {
+      "name" : "Науру",
+      "index" : "NR",
+      "areaCode" : "+674"
+    },
+    {
+      "name" : "Острови Кука",
+      "index" : "CK",
+      "areaCode" : "+682"
+    },
+    {
+      "name" : "Таїланд",
+      "index" : "TH",
+      "areaCode" : "+66"
+    },
+    {
+      "name" : "Чилі",
+      "index" : "CL",
+      "areaCode" : "+56"
+    },
+    {
+      "name" : "Кайманові Острови",
+      "index" : "KY",
+      "areaCode" : "+1345"
+    },
+    {
+      "name" : "Камерун",
+      "index" : "CM",
+      "areaCode" : "+237"
+    },
+    {
+      "name" : "Таджикистан",
+      "index" : "TJ",
+      "areaCode" : "+992"
+    },
+    {
+      "name" : "Казахстан",
+      "index" : "KZ",
+      "areaCode" : "+7"
+    },
+    {
+      "name" : "Китай материковий",
+      "index" : "CN",
+      "areaCode" : "+86"
+    },
+    {
+      "name" : "Фінляндія",
+      "index" : "FI",
+      "areaCode" : "+358"
+    },
+    {
+      "name" : "Індонезія",
+      "index" : "ID",
+      "areaCode" : "+62"
+    },
+    {
+      "name" : "Південно-Африканська Республіка",
+      "index" : "ZA",
+      "areaCode" : "+27"
+    },
+    {
+      "name" : "Тимор-Лешті",
+      "index" : "TL",
+      "areaCode" : "+670"
+    },
+    {
+      "name" : "Колумбія",
+      "index" : "CO",
+      "areaCode" : "+57"
+    },
+    {
+      "name" : "Фіджі",
+      "index" : "FJ",
+      "areaCode" : "+679"
+    },
+    {
+      "name" : "Ірландія",
+      "index" : "IE",
+      "areaCode" : "+353"
+    },
+    {
+      "name" : "Туркменістан",
+      "index" : "TM",
+      "areaCode" : "+993"
+    },
+    {
+      "name" : "Лаос",
+      "index" : "LA",
+      "areaCode" : "+856"
+    },
+    {
+      "name" : "Туніс",
+      "index" : "TN",
+      "areaCode" : "+216"
+    },
+    {
+      "name" : "Ліван",
+      "index" : "LB",
+      "areaCode" : "+961"
+    },
+    {
+      "name" : "Тонга",
+      "index" : "TO",
+      "areaCode" : "+676"
+    },
+    {
+      "name" : "Коста-Рика",
+      "index" : "CR",
+      "areaCode" : "+506"
+    },
+    {
+      "name" : "Сент-Люсія",
+      "index" : "LC",
+      "areaCode" : "+1758"
+    },
+    {
+      "name" : "Нова Зеландія",
+      "index" : "NZ",
+      "areaCode" : "+64"
+    },
+    {
+      "name" : "Фарерські Острови",
+      "index" : "FO",
+      "areaCode" : "+298"
+    },
+    {
+      "name" : "Туреччина",
+      "index" : "TR",
+      "areaCode" : "+90"
+    },
+    {
+      "name" : "Куба",
+      "index" : "CU",
+      "areaCode" : "+53"
+    },
+    {
+      "name" : "Кабо-Верде",
+      "index" : "CV",
+      "areaCode" : "+238"
+    },
+    {
+      "name" : "Ізраїль",
+      "index" : "IL",
+      "areaCode" : "+972"
+    },
+    {
+      "name" : "Тринідад і Тобаго",
+      "index" : "TT",
+      "areaCode" : "+1868"
+    },
+    {
+      "name" : "Кюрасао",
+      "index" : "CW",
+      "areaCode" : "+599"
+    },
+    {
+      "name" : "Франція",
+      "index" : "FR",
+      "areaCode" : "+33"
+    },
+    {
+      "name" : "Індія",
+      "index" : "IN",
+      "areaCode" : "+91"
+    },
+    {
+      "name" : "Ліхтенштейн",
+      "index" : "LI",
+      "areaCode" : "+423"
+    },
+    {
+      "name" : "Кіпр",
+      "index" : "CY",
+      "areaCode" : "+357"
+    },
+    {
+      "name" : "Острів Вознесіння",
+      "index" : "AC",
+      "areaCode" : "+247"
+    },
+    {
+      "name" : "Тайвань",
+      "index" : "TW",
+      "areaCode" : "+886"
+    },
+    {
+      "name" : "Шрі-Ланка",
+      "index" : "LK",
+      "areaCode" : "+94"
+    },
+    {
+      "name" : "Чехія",
+      "index" : "CZ",
+      "areaCode" : "+420"
+    },
+    {
+      "name" : "Андорра",
+      "index" : "AD",
+      "areaCode" : "+376"
+    },
+    {
+      "name" : "Замбія",
+      "index" : "ZM",
+      "areaCode" : "+260"
+    },
+    {
+      "name" : "Самоа",
+      "index" : "WS",
+      "areaCode" : "+685"
+    },
+    {
+      "name" : "Ірак",
+      "index" : "IQ",
+      "areaCode" : "+964"
+    },
+    {
+      "name" : "Обʼєднані Арабські Емірати",
+      "index" : "AE",
+      "areaCode" : "+971"
+    },
+    {
+      "name" : "Іран",
+      "index" : "IR",
+      "areaCode" : "+98"
+    },
+    {
+      "name" : "Афганістан",
+      "index" : "AF",
+      "areaCode" : "+93"
+    },
+    {
+      "name" : "Танзанія",
+      "index" : "TZ",
+      "areaCode" : "+255"
+    },
+    {
+      "name" : "Ісландія",
+      "index" : "IS",
+      "areaCode" : "+354"
+    },
+    {
+      "name" : "Антигуа і Барбуда",
+      "index" : "AG",
+      "areaCode" : "+1268"
+    },
+    {
+      "name" : "Італія",
+      "index" : "IT",
+      "areaCode" : "+39"
+    },
+    {
+      "name" : "Реюньйон",
+      "index" : "RE",
+      "areaCode" : "+262"
+    },
+    {
+      "name" : "Україна",
+      "index" : "UA",
+      "areaCode" : "+380"
+    },
+    {
+      "name" : "Ангілья",
+      "index" : "AI",
+      "areaCode" : "+1264"
+    },
+    {
+      "name" : "Німеччина",
+      "index" : "DE",
+      "areaCode" : "+49"
+    },
+    {
+      "name" : "Ліберія",
+      "index" : "LR",
+      "areaCode" : "+231"
+    },
+    {
+      "name" : "Габон",
+      "index" : "GA",
+      "areaCode" : "+241"
+    },
+    {
+      "name" : "Оман",
+      "index" : "OM",
+      "areaCode" : "+968"
+    },
+    {
+      "name" : "Лесото",
+      "index" : "LS",
+      "areaCode" : "+266"
+    },
+    {
+      "name" : "Велика Британія",
+      "index" : "GB",
+      "areaCode" : "+44"
+    },
+    {
+      "name" : "Албанія",
+      "index" : "AL",
+      "areaCode" : "+355"
+    },
+    {
+      "name" : "Литва",
+      "index" : "LT",
+      "areaCode" : "+370"
+    },
+    {
+      "name" : "Вірменія",
+      "index" : "AM",
+      "areaCode" : "+374"
+    },
+    {
+      "name" : "Зімбабве",
+      "index" : "ZW",
+      "areaCode" : "+263"
+    },
+    {
+      "name" : "Люксембург",
+      "index" : "LU",
+      "areaCode" : "+352"
+    },
+    {
+      "name" : "Гренада",
+      "index" : "GD",
+      "areaCode" : "+1473"
+    },
+    {
+      "name" : "Латвія",
+      "index" : "LV",
+      "areaCode" : "+371"
+    },
+    {
+      "name" : "Джибуті",
+      "index" : "DJ",
+      "areaCode" : "+253"
+    },
+    {
+      "name" : "Грузія",
+      "index" : "GE",
+      "areaCode" : "+995"
+    },
+    {
+      "name" : "Ангола",
+      "index" : "AO",
+      "areaCode" : "+244"
+    },
+    {
+      "name" : "Уганда",
+      "index" : "UG",
+      "areaCode" : "+256"
+    },
+    {
+      "name" : "Данія",
+      "index" : "DK",
+      "areaCode" : "+45"
+    },
+    {
+      "name" : "Французька Гвіана",
+      "index" : "GF",
+      "areaCode" : "+594"
+    },
+    {
+      "name" : "Лівія",
+      "index" : "LY",
+      "areaCode" : "+218"
+    },
+    {
+      "name" : "Домініка",
+      "index" : "DM",
+      "areaCode" : "+1767"
+    },
+    {
+      "name" : "Гана",
+      "index" : "GH",
+      "areaCode" : "+233"
+    },
+    {
+      "name" : "Аргентина",
+      "index" : "AR",
+      "areaCode" : "+54"
+    },
+    {
+      "name" : "Румунія",
+      "index" : "RO",
+      "areaCode" : "+40"
+    },
+    {
+      "name" : "Гібралтар",
+      "index" : "GI",
+      "areaCode" : "+350"
+    },
+    {
+      "name" : "Американське Самоа",
+      "index" : "AS",
+      "areaCode" : "+1684"
+    },
+    {
+      "name" : "Домініканська Республіка",
+      "index" : "DO",
+      "areaCode" : "+1809"
+    },
+    {
+      "name" : "Австрія",
+      "index" : "AT",
+      "areaCode" : "+43"
+    },
+    {
+      "name" : "Австралія",
+      "index" : "AU",
+      "areaCode" : "+61"
+    },
+    {
+      "name" : "Марокко",
+      "index" : "MA",
+      "areaCode" : "+212"
+    },
+    {
+      "name" : "Сербія",
+      "index" : "RS",
+      "areaCode" : "+381"
+    },
+    {
+      "name" : "Гренландія",
+      "index" : "GL",
+      "areaCode" : "+299"
+    },
+    {
+      "name" : "Ґамбія",
+      "index" : "GM",
+      "areaCode" : "+220"
+    },
+    {
+      "name" : "Аруба",
+      "index" : "AW",
+      "areaCode" : "+297"
+    },
+    {
+      "name" : "Монако",
+      "index" : "MC",
+      "areaCode" : "+377"
+    },
+    {
+      "name" : "Росія",
+      "index" : "RU",
+      "areaCode" : "+7"
+    },
+    {
+      "name" : "Молдова",
+      "index" : "MD",
+      "areaCode" : "+373"
+    },
+    {
+      "name" : "Гвінея",
+      "index" : "GN",
+      "areaCode" : "+224"
+    },
+    {
+      "name" : "Чорногорія",
+      "index" : "ME",
+      "areaCode" : "+382"
+    },
+    {
+      "name" : "Руанда",
+      "index" : "RW",
+      "areaCode" : "+250"
+    },
+    {
+      "name" : "Азербайджан",
+      "index" : "AZ",
+      "areaCode" : "+994"
+    },
+    {
+      "name" : "Панама",
+      "index" : "PA",
+      "areaCode" : "+507"
+    },
+    {
+      "name" : "Гваделупа",
+      "index" : "GP",
+      "areaCode" : "+590"
+    },
+    {
+      "name" : "Сполучені Штати",
+      "index" : "US",
+      "areaCode" : "+1"
+    },
+    {
+      "name" : "Мадагаскар",
+      "index" : "MG",
+      "areaCode" : "+261"
+    },
+    {
+      "name" : "Екваторіальна Гвінея",
+      "index" : "GQ",
+      "areaCode" : "+240"
+    },
+    {
+      "name" : "Греція",
+      "index" : "GR",
+      "areaCode" : "+30"
+    },
+    {
+      "name" : "Боснія і Герцеговина",
+      "index" : "BA",
+      "areaCode" : "+387"
+    },
+    {
+      "name" : "Ямайка",
+      "index" : "JM",
+      "areaCode" : "+1876"
+    },
+    {
+      "name" : "Барбадос",
+      "index" : "BB",
+      "areaCode" : "+1246"
+    },
+    {
+      "name" : "Перу",
+      "index" : "PE",
+      "areaCode" : "+51"
+    },
+    {
+      "name" : "Гватемала",
+      "index" : "GT",
+      "areaCode" : "+502"
+    },
+    {
+      "name" : "Йорданія",
+      "index" : "JO",
+      "areaCode" : "+962"
+    },
+    {
+      "name" : "Алжир",
+      "index" : "DZ",
+      "areaCode" : "+213"
+    },
+    {
+      "name" : "Гуам",
+      "index" : "GU",
+      "areaCode" : "+1671"
+    },
+    {
+      "name" : "Бангладеш",
+      "index" : "BD",
+      "areaCode" : "+880"
+    },
+    {
+      "name" : "Японія",
+      "index" : "JP",
+      "areaCode" : "+81"
+    },
+    {
+      "name" : "Французька Полінезія",
+      "index" : "PF",
+      "areaCode" : "+689"
+    },
+    {
+      "name" : "Малі",
+      "index" : "ML",
+      "areaCode" : "+223"
+    },
+    {
+      "name" : "Бельгія",
+      "index" : "BE",
+      "areaCode" : "+32"
+    },
+    {
+      "name" : "Папуа-Нова Гвінея",
+      "index" : "PG",
+      "areaCode" : "+675"
+    },
+    {
+      "name" : "Саудівська Аравія",
+      "index" : "SA",
+      "areaCode" : "+966"
+    },
+    {
+      "name" : "Соломонові Острови",
+      "index" : "SB",
+      "areaCode" : "+677"
+    },
+    {
+      "name" : "Мʼянма (Бірма)",
+      "index" : "MM",
+      "areaCode" : "+95"
+    },
+    {
+      "name" : "Гвінея-Бісау",
+      "index" : "GW",
+      "areaCode" : "+245"
+    },
+    {
+      "name" : "Буркіна-Фасо",
+      "index" : "BF",
+      "areaCode" : "+226"
+    },
+    {
+      "name" : "Філіппіни",
+      "index" : "PH",
+      "areaCode" : "+63"
+    },
+    {
+      "name" : "Сейшельські Острови",
+      "index" : "SC",
+      "areaCode" : "+248"
+    },
+    {
+      "name" : "Монголія",
+      "index" : "MN",
+      "areaCode" : "+976"
+    },
+    {
+      "name" : "Болгарія",
+      "index" : "BG",
+      "areaCode" : "+359"
+    },
+    {
+      "name" : "Судан",
+      "index" : "SD",
+      "areaCode" : "+249"
+    },
+    {
+      "name" : "Уругвай",
+      "index" : "UY",
+      "areaCode" : "+598"
+    },
+    {
+      "name" : "Північна Македонія",
+      "index" : "MKD",
+      "areaCode" : "+389"
+    },
+    {
+      "name" : "Макао",
+      "index" : "MO",
+      "areaCode" : "+853"
+    },
+    {
+      "name" : "Еквадор",
+      "index" : "EC",
+      "areaCode" : "+593"
+    },
+    {
+      "name" : "Гаяна",
+      "index" : "GY",
+      "areaCode" : "+592"
+    },
+    {
+      "name" : "Бахрейн",
+      "index" : "BH",
+      "areaCode" : "+973"
+    },
+    {
+      "name" : "Швеція",
+      "index" : "SE",
+      "areaCode" : "+46"
+    },
+    {
+      "name" : "Північні Маріанські Острови",
+      "index" : "MP",
+      "areaCode" : "+1670"
+    },
+    {
+      "name" : "Бурунді",
+      "index" : "BI",
+      "areaCode" : "+257"
+    },
+    {
+      "name" : "Пакистан",
+      "index" : "PK",
+      "areaCode" : "+92"
+    },
+    {
+      "name" : "Узбекистан",
+      "index" : "UZ",
+      "areaCode" : "+998"
+    },
+    {
+      "name" : "Мартиніка",
+      "index" : "MQ",
+      "areaCode" : "+596"
+    },
+    {
+      "name" : "Естонія",
+      "index" : "EE",
+      "areaCode" : "+372"
+    },
+    {
+      "name" : "Бенін",
+      "index" : "BJ",
+      "areaCode" : "+229"
+    },
+    {
+      "name" : "Польща",
+      "index" : "PL",
+      "areaCode" : "+48"
+    },
+    {
+      "name" : "Сінгапур",
+      "index" : "SG",
+      "areaCode" : "+65"
+    },
+    {
+      "name" : "Мавританія",
+      "index" : "MR",
+      "areaCode" : "+222"
+    },
+    {
+      "name" : "Сен-Пʼєр і Мікелон",
+      "index" : "PM",
+      "areaCode" : "+508"
+    },
+    {
+      "name" : "Сент-Вінсент і Гренадіни",
+      "index" : "VC",
+      "areaCode" : "+1784"
+    },
+    {
+      "name" : "Монтсеррат",
+      "index" : "MS",
+      "areaCode" : "+1664"
+    },
+    {
+      "name" : "Єгипет",
+      "index" : "EG",
+      "areaCode" : "+20"
+    },
+    {
+      "name" : "Сен-Бартелемі",
+      "index" : "BL",
+      "areaCode" : "+970"
+    },
+    {
+      "name" : "Словенія",
+      "index" : "SI",
+      "areaCode" : "+386"
+    },
+    {
+      "name" : "Мальта",
+      "index" : "MT",
+      "areaCode" : "+356"
+    },
+    {
+      "name" : "Бермудські Острови",
+      "index" : "BM",
+      "areaCode" : "+1441"
+    },
+    {
+      "name" : "Венесуела",
+      "index" : "VE",
+      "areaCode" : "+58"
+    },
+    {
+      "name" : "Маврикій",
+      "index" : "MU",
+      "areaCode" : "+230"
+    },
+    {
+      "name" : "Бруней",
+      "index" : "BN",
+      "areaCode" : "+673"
+    },
+    {
+      "name" : "Словаччина",
+      "index" : "SK",
+      "areaCode" : "+421"
+    },
+    {
+      "name" : "Мальдіви",
+      "index" : "MV",
+      "areaCode" : "+960"
+    },
+    {
+      "name" : "Болівія",
+      "index" : "BO",
+      "areaCode" : "+591"
+    },
+    {
+      "name" : "Сьєрра-Леоне",
+      "index" : "SL",
+      "areaCode" : "+232"
+    },
+    {
+      "name" : "Британські Віргінські острови",
+      "index" : "VG",
+      "areaCode" : "+1340"
+    },
+    {
+      "name" : "Малаві",
+      "index" : "MW",
+      "areaCode" : "+265"
+    },
+    {
+      "name" : "Пуерто-Рико",
+      "index" : "PR",
+      "areaCode" : "+1787"
+    }
+  ]
+}
