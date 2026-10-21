@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/device_media_title" android:layout_width="fill_parent" uilib:IsShowBottomLine="false" uilib:RightBtn_Nor="@drawable/ic_calendar_gray" uilib:RightBtn_Sel="@drawable/ic_calendar_gray" uilib:TitleText="photo_equipment" style="@style/Normal_Title_Bar" />
+	<include android:layout_gravity="bottom" android:id="@id/device_edit_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true" layout="@layout/menu_device_media" />
+	<com.xworld.widget.MyListView android:id="@id/devPicture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="0.0dip" android:layout_below="@id/device_media_title" android:layout_alignParentBottom="true" />
+	<ImageView android:id="@id/dev_album_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dev_album_empty" android:layout_centerInParent="true" />
+	<TextView android:textSize="18.0sp" android:textColor="@color/color_666666" android:id="@id/tvDevNoSD" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No_SDcard" android:layout_centerInParent="true" />
+</RelativeLayout>
