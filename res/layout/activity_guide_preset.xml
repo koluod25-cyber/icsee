@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/cover_gray" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_weight="1.0">
+		<ImageView android:id="@id/video_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/guide_presetting_01" android:scaleType="center" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/guide_presetting_02" />
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="190.0dip">
+		<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/guide_presetting_03" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<ImageView android:layout_gravity="center" android:id="@id/i_know" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:src="@drawable/guide_i_know" />
+</LinearLayout>

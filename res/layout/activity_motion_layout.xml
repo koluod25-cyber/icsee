@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/title_alarm_chn_set" android:layout_width="fill_parent" android:layout_height="wrap_content" app:TitleText="TR_SportsDetection" style="@style/New_Style_Title_Bar" />
+	<ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<LinearLayout android:orientation="vertical" android:id="@id/ll_pir_function" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" style="@style/ThemeLayoutStyle">
+				<com.ui.controls.ListSelectItem android:id="@id/detection_alarm" android:layout_width="fill_parent" android:layout_height="wrap_content" app:RightClickable="false" app:ShowSwitch="true" app:ShowTopLine="false" app:Title="TR_PIR_Detection" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+				<LinearLayout android:orientation="vertical" android:id="@id/detection_alarm_ll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<com.ui.controls.ListSelectItem android:id="@id/detection_sensitive" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ExtraMode="SeekBar" app:ImageRight2="@drawable/dummy_ae_74d" app:Title="TR_Pir_Sensitivity" app:leftMargin="0.0dip" app:seekBarBottomLeftText="TR_PIR_lowest" app:seekBarBottomRightText="TR_PIR_Hightext" style="@style/new_No_Next_BaseListSelectItemStyle" />
+					<com.ui.controls.ListSelectItem android:id="@id/detection_schedule" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:RightClickable="false" app:ShowTopLine="true" app:Title="TR_Detection_Schedule" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_detect_switch" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:RightClickable="false" app:ShowSwitch="true" app:ShowTopLine="true" app:Title="Human_Detection" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

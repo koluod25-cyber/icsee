@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xb_dev_alarm_title" android:layout_width="fill_parent" uilib:TitleText="Intelligent_Vigilance" style="@style/New_Style_Title_Bar" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/ThemeLayoutStyle">
+				<LinearLayout android:orientation="vertical" android:id="@id/ll_human_detection_switch" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_human_detection_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageRight1="@drawable/icon_off" uilib:ImageRight2="@drawable/icon_open" uilib:LineColor="@color/line_color" uilib:ShowTopLine="false" uilib:Title="Human_Detection" uilib:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_face_detection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageRight1="@drawable/icon_off" uilib:ImageRight2="@drawable/icon_open" uilib:LineColor="@color/line_color" uilib:RightClickable="false" uilib:Title="TR_FaceDetect" uilib:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_human_detection_track" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageRight1="@drawable/icon_off" uilib:ImageRight2="@drawable/icon_open" uilib:LineColor="@color/line_color" uilib:ShowBottomLine="true" uilib:Title="Show_traces" uilib:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+				</LinearLayout>
+				<com.ui.controls.ListSelectItem android:id="@id/lsi_human_detection_perimeter" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageRight1="@drawable/icon_off" uilib:ImageRight2="@drawable/icon_open" uilib:LineColor="@color/line_color" uilib:ShowTopLine="false" uilib:Title="TR_Rule_Setting" uilib:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+				<LinearLayout android:orientation="vertical" android:id="@id/ll_human_detection_perimeter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_human_detection_line" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageLeft1="@drawable/dummy_ae_2cf" uilib:ImageLeft2="@drawable/dummy_ae_2d0" uilib:LineColor="@color/line_color" uilib:RightClickable="false" uilib:Title="alert_line" uilib:leftMargin="10.0dip" style="@style/new_BaseListSelectItemStyle" />
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_human_detection_area" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageLeft1="@drawable/dummy_ae_2cf" uilib:ImageLeft2="@drawable/dummy_ae_2d0" uilib:RightClickable="false" uilib:Title="alert_area" uilib:leftMargin="10.0dip" style="@style/new_BaseListSelectItemStyle" />
+				</LinearLayout>
+			</LinearLayout>
+			<TextView android:textSize="14.0sp" android:textColor="@color/color_text_light1" android:id="@id/tv_alarm_video_pic_tip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.5dip" android:layout_marginTop="@dimen/di_20" android:text="TR_AlarmLinkage" />
+			<LinearLayout android:orientation="vertical" android:id="@id/ll_alarm_video_pic" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+				<com.ui.controls.ListSelectItem android:id="@id/lsi_alarm_video" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageRight1="@drawable/icon_off" uilib:ImageRight2="@drawable/icon_open" uilib:LineColor="@color/line_color" uilib:RightClickable="false" uilib:Title="record_alarm" uilib:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+				<com.ui.controls.ListSelectItem android:id="@id/lsi_alarm_pic" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageRight1="@drawable/icon_off" uilib:ImageRight2="@drawable/icon_open" uilib:LineColor="@color/line_color" uilib:RightClickable="false" uilib:Title="TR_AlarmCapture" uilib:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

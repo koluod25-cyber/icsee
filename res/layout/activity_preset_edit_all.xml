@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/color_bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xtb_preset" android:background="@color/color_bg_normal" android:layout_width="fill_parent" app:IsShowBottomLine="false" app:RightBtn_Nor="@drawable/dummy_ae_620" app:RightBtn_Sel="@drawable/dummy_ae_91c" app:TitleText="TR_Edit_Preset" style="@style/Normal_Title_Bar" />
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/small_margin" android:layout_above="@id/preset_edit_bottom" android:layout_below="@id/xtb_preset">
+		<androidx.recyclerview.widget.RecyclerView android:id="@id/edit_recycleView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<TextView android:gravity="center" android:id="@id/iv_empty" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_Setting_No_Favorites_Location_Is_Added" android:drawableTop="@drawable/img_blank" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<include android:layout_gravity="bottom" android:id="@id/preset_edit_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true" layout="@layout/menu_local_media" />
+</RelativeLayout>

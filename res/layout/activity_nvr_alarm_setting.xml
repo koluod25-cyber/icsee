@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/nvr_alarm_title" android:layout_width="fill_parent" uilib:IsShowBottomLine="false" uilib:TitleText="Intelligent_Vigilance" uilib:layout_constraintTop_toTopOf="parent" style="@style/New_Style_Title_Bar" />
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" uilib:layout_constraintEnd_toEndOf="parent" uilib:layout_constraintStart_toStartOf="parent" uilib:layout_constraintTop_toBottomOf="@id/nvr_alarm_title" style="@style/ThemeLayoutStyle">
+		<com.xm.ui.widget.ListSelectItem android:id="@id/lis_human_detection" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ShowBottomLine="false" uilib:ShowSwitch="false" uilib:ShowTopLine="false" uilib:Title="Human_Detection" uilib:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+		<com.xm.ui.widget.ListSelectItem android:id="@id/lis_car_detection" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageRight1="@drawable/icon_off" uilib:ImageRight2="@drawable/icon_open" uilib:RightClickable="false" uilib:ShowBottomLine="false" uilib:ShowTopLine="true" uilib:Title="TR_Car_Shape_Detect" uilib:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

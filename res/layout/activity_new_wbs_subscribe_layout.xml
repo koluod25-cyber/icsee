@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/dev_set_title" android:layout_width="fill_parent" uilib:TitleText="TR_MessageNotification" style="@style/New_Style_Title_Bar" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<com.ui.controls.ListSelectItem android:id="@id/lsi_alarm_push_switch" android:background="@drawable/ripple_round_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dev_setting_margin" android:layout_marginEnd="@dimen/dev_setting_margin" uilib:Cap="" uilib:CapColor="@color/invalid_red" uilib:ImageRight1="@drawable/icon_off" uilib:ImageRight2="@drawable/icon_open" uilib:RightClickable="false" uilib:ShowBottomLine="false" uilib:ShowTopLine="false" uilib:Title="TR_ReceiveDevMsg" uilib:leftMargin="0.0dip" uilib:singleClick="true" style="@style/new_BaseListSelectItemStyle" />
+			<com.ui.controls.ListSelectItem android:id="@id/lsi_alarm_push_time" android:background="@drawable/ripple_round_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/half_of_normal_margin" android:layout_marginStart="@dimen/dev_setting_margin" android:layout_marginEnd="@dimen/dev_setting_margin" uilib:Cap="" uilib:ShowBottomLine="false" uilib:ShowTopLine="false" uilib:Title="TR_ReceivePeriod" uilib:leftMargin="0.0dip" uilib:singleClick="true" style="@style/new_BaseListSelectItemStyle" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

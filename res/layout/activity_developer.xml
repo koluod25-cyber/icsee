@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/developer_title" android:layout_width="fill_parent" custom:RightText="finish" custom:TitleText="Developer_setting" style="@style/Normal_Title_Bar" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/developer_title">
+		<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="18.0dip">
+			<RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+				<TextView android:textSize="16.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Body_trigger_time" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+				<Spinner android:textColor="@color/login_page_color" android:gravity="end" android:id="@id/body_trigger_time" android:background="@drawable/spinner_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+			</RelativeLayout>
+			<View android:background="@color/line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+				<TextView android:textSize="16.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Message_push_interval" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+				<Spinner android:textColor="@color/login_page_color" android:gravity="end" android:id="@id/message_push_interval" android:background="@drawable/spinner_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+			</RelativeLayout>
+			<View android:background="@color/line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+			<RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+				<TextView android:textSize="16.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sever_push_interval" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+				<Spinner android:textColor="@color/login_page_color" android:gravity="end" android:background="@drawable/spinner_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+			</RelativeLayout>
+			<View android:background="@color/line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+				<TextView android:textSize="16.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sleep_time" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+				<Spinner android:textColor="@color/login_page_color" android:gravity="end" android:id="@id/sleep_time" android:background="@drawable/spinner_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+			</RelativeLayout>
+			<View android:background="@color/line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+				<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+					<TextView android:textSize="16.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No_disturb_mode" />
+					<TextView android:textSize="10.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No_disturb_mode_tip" />
+				</LinearLayout>
+				<CheckBox android:id="@id/no_disturb_mode_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/on_off_sel" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+			</RelativeLayout>
+			<View android:background="@color/line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+			<RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+				<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+					<TextView android:textSize="16.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Body_trigger" />
+					<TextView android:textSize="10.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Body_trigger_tip" />
+				</LinearLayout>
+				<CheckBox android:id="@id/body_trigger_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/on_off_sel" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+			</RelativeLayout>
+			<View android:id="@id/lineOpenBreath" android:background="@color/line_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+			<RelativeLayout android:id="@id/relaLayoutOpenBreath" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+				<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+					<TextView android:textSize="16.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="呼吸灯" />
+					<TextView android:textSize="10.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="呼吸灯功能" />
+				</LinearLayout>
+				<CheckBox android:id="@id/checkBoxOpenBreath" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/on_off_sel" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+			</RelativeLayout>
+			<View android:background="@color/line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+				<LinearLayout android:orientation="vertical" android:id="@id/lineLayoutPir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+					<TextView android:textSize="16.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PIR唤醒门铃时间" />
+					<TextView android:textSize="10.0sp" android:textColor="@color/login_page_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PIR检测[一段时间]后唤醒主控" />
+				</LinearLayout>
+				<RelativeLayout android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/lineLayoutPir" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:layout_toEndOf="@id/lineLayoutPir">
+					<SeekBar android:id="@id/seekBarPirTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="179" android:layout_below="@id/txtPirTime" />
+					<TextView android:textSize="12.0sp" android:id="@id/txtPirTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+				</RelativeLayout>
+			</RelativeLayout>
+			<View android:background="@color/line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/mf_community_title" android:layout_width="fill_parent" uilib:TitleText="mf_community" style="@style/Normal_Title_Bar" />
+	<com.xworld.widget.EnlargeDistanceSwipeRefreshLayout android:id="@id/swip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/mf_community_title">
+		<WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</com.xworld.widget.EnlargeDistanceSwipeRefreshLayout>
+	<ProgressBar android:id="@id/pb" android:layout_width="fill_parent" android:layout_height="3.0dip" android:max="100" android:layout_below="@id/mf_community_title" style="@style/m_pb_style" />
+	<include android:id="@id/activity_web_share" layout="@layout/include_web_share" />
+</RelativeLayout>

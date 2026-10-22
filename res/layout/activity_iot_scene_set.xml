@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xb_iot_scene_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:RightBtn_Nor="@drawable/nav_add_selector" app:RightBtn_Sel="@drawable/nav_add_selector" app:TitleText="TR_Scene_Setting" style="@style/Normal_Title_Bar" />
+	<LinearLayout android:orientation="vertical" android:id="@id/ll_status_mode" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/xb_iot_scene_title" style="@style/ThemeLayoutStyle">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="TR_Current_status_mode" android:layout_marginStart="10.0dip" />
+		<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+			<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+				<com.ui.controls.ButtonCheck android:id="@id/bc_iot_leave_home" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NormalBkg="@drawable/ic_dev_iot_leave_home_big_nor" app:SelectedBkg="@drawable/ic_dev_iot_leave_home_big_sel" />
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_Leave_Home" />
+			</LinearLayout>
+			<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+				<com.ui.controls.ButtonCheck android:id="@id/bc_iot_at_home" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NormalBkg="@drawable/ic_dev_iot_at_home_big_nor" app:SelectedBkg="@drawable/ic_dev_iot_at_home_big_sel" />
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_At_Home" />
+			</LinearLayout>
+			<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+				<com.ui.controls.ButtonCheck android:id="@id/bc_iot_disarm" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NormalBkg="@drawable/ic_dev_iot_disarm_big_nor" app:SelectedBkg="@drawable/ic_dev_iot_disarm_big_sel" />
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_IOT_Alarm_Disarmed" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ll_add_scene" android:layout_below="@id/ll_status_mode">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_Click_to_edit" android:maxLines="1" android:layout_marginStart="10.0dip" />
+				<TextView android:gravity="center" android:id="@id/tv_leave_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_Leave_Home" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_toStartOf="@id/tv_at_home" />
+				<TextView android:gravity="center" android:id="@id/tv_at_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_At_Home" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+			</RelativeLayout>
+			<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_scene_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_add_scene" android:background="@drawable/corner_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginBottom="@dimen/double_button_margin" android:minHeight="@dimen/item_min_height" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_start">
+		<ImageView android:id="@id/iv_add_scene" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_add" />
+	</LinearLayout>
+</RelativeLayout>

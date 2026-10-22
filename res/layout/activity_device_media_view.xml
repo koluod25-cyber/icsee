@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.xworld.widget.DisplayImageView android:id="@id/iv_qrcode" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentTop="true">
+		<com.ui.controls.XTitleBar android:id="@id/device_media_title" android:layout_width="fill_parent" uilib:TitleText="Device_Photo_Preview" style="@style/Normal_Title_Bar" />
+		<TextView android:textColor="@color/white" android:gravity="center" android:id="@id/photo_describe" android:background="@drawable/round_gray_progressbg_shape" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/device_media_title" android:layout_centerHorizontal="true" />
+	</RelativeLayout>
+	<ProgressBar android:id="@id/pb_qrcode" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+	<com.ui.controls.BtnColorBK android:id="@id/save_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginBottom="@dimen/button_margin_bottom" android:text="set_all" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_end" uilib:pressed_solid="@color/menu_color" style="@style/defaultButtonStyle" />
+</RelativeLayout>

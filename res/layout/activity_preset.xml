@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/preset_title" android:layout_width="fill_parent" uilib:IsShowBottomLine="true" uilib:RightBtn_Nor="@drawable/help_ico" uilib:RightBtn_Sel="@drawable/help_ico" uilib:TitleText="config_preset" style="@style/Normal_Title_Bar" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/add_preset" android:layout_below="@id/preset_title">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<RelativeLayout android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<ImageView android:id="@id/ptz_up_arrow" android:background="@drawable/ptz_up_arrow" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="15.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+				<ImageView android:id="@id/ptz_right_arrow" android:background="@drawable/ptz_up_arrow" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:rotation="90.0" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+				<ImageView android:id="@id/ptz_down_arrow" android:background="@drawable/ptz_up_arrow" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:rotation="180.0" />
+				<ImageView android:id="@id/ptz_left_arrow" android:background="@drawable/ptz_up_arrow" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:rotation="270.0" android:layout_marginStart="15.0dip" android:layout_alignParentStart="true" />
+			</RelativeLayout>
+			<TextView android:textSize="@dimen/small_text_size" android:textColor="@color/default_selected_text_color" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="30.0dip" android:text="preset_tips" />
+			<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+				<androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="220.0dip" />
+				<com.xworld.widget.DotView android:layout_gravity="center" android:id="@id/dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" uilib:dot_mode="sticky" uilib:max_sticky_length="50.0dip" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<com.ui.controls.BtnColorBK android:id="@id/add_preset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/button_margin_bottom" android:text="add_preset" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_end" style="@style/defaultButtonStyle" />
+</RelativeLayout>

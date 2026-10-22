@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<com.ui.controls.XTitleBar android:id="@id/interval_manager_title" android:layout_width="fill_parent" uilib:TitleText="Interval_Manager" style="@style/New_Style_Title_Bar" />
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" style="@style/ThemeLayoutStyle">
+			<com.ui.controls.ListSelectItem android:id="@id/adv_interval_function" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageRight1="@drawable/icon_off" uilib:ImageRight2="@drawable/icon_open" uilib:ShowTopLine="false" uilib:Tip="Intercal_Function_tip" uilib:Title="Intercal_Function" style="@style/new_BaseListSelectItemStyle" />
+			<LinearLayout android:orientation="vertical" android:id="@id/ll_interval_function_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<com.ui.controls.ListSelectItem android:id="@id/ls_interval_settime" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:Cap="No_Set" uilib:Title="IntervalSetTime" uilib:singleClick="true" style="@style/new_BaseListSelectItemStyle" />
+				<com.ui.controls.ListSelectItem android:id="@id/ls_interval_time" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:Cap="No_Set" uilib:Tip="IntervalTime_Tips" uilib:Title="IntervalTime" uilib:singleClick="true" style="@style/new_BaseListSelectItemStyle" />
+				<com.ui.controls.ListSelectItem android:id="@id/ls_wakeup_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:Cap="No_Set" uilib:Tip="Wake_Up_Operation_Tips" uilib:Title="Wake_Up_Operation" uilib:leftMargin="0.0dip" uilib:singleClick="true" style="@style/new_BaseListSelectItemStyle" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

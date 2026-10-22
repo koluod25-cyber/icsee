@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+		<com.ui.controls.XTitleBar android:id="@id/xtb_edit_preset" android:layout_width="fill_parent" uilib:RightText="finish" uilib:TitleText="" style="@style/Normal_Title_Bar" />
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+			<com.ui.controls.ListSelectItem android:id="@id/lsi_preset_name" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:Cap="" uilib:CapColor="@color/login_page_color" uilib:ShowTopLine="false" uilib:Title="preset_name" style="@style/baseListSelectItemStyle" />
+			<com.ui.controls.ListSelectItem android:id="@id/lsi_preset_img" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:Cap="" uilib:CapColor="@color/login_page_color" uilib:ItemTitleColor="@color/login_page_color" uilib:LineColor="@color/line_color" uilib:Title="cover_img" />
+			<com.ui.controls.ListSelectItem android:id="@id/lsi_preset_link" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:Cap="" uilib:CapColor="@color/login_page_color" uilib:ImageRight1="@drawable/dummy_ae_74d" uilib:ImageRight2="@drawable/icon_next" uilib:ItemTitleColor="@color/login_page_color" uilib:LineColor="@color/line_color" uilib:Title="link_alarm_dev" />
+			<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_sensors" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		</LinearLayout>
+	</LinearLayout>
+	<com.ui.controls.BtnColorBK android:id="@id/delete_preset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/button_margin_bottom" android:text="delete_preset" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_end" style="@style/defaultButtonStyle" />
+</LinearLayout>

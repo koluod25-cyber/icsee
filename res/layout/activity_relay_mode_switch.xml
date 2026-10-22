@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/relay_mode_switch_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:TitleText="TR_Relay_Mode_Switch" style="@style/Normal_Title_Bar" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_base_station_mode" android:background="@drawable/selector_relay_mode_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/set_base_station_mode_nor" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+			<CheckBox android:textSize="@dimen/middle_text_size" android:textColor="@color/login_page_color" android:layout_gravity="center_horizontal" android:id="@id/cb_base_station_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:button="@null" android:text="TR_BaseStation_Mode" android:drawablePadding="@dimen/list_item_margin_start" android:drawableStart="@drawable/radio_btn" />
+			<ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_relay_mode" android:background="@drawable/selector_relay_mode_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/set_relay_mode_nor" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+			<CheckBox android:textSize="@dimen/middle_text_size" android:textColor="@color/login_page_color" android:layout_gravity="center_horizontal" android:id="@id/cb_relay_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:text="TR_Relay_Mode" android:drawablePadding="@dimen/list_item_margin_start" android:drawableStart="@drawable/radio_btn" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

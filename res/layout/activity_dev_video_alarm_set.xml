@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/dev_video_alarm_set_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:TitleText="TR_ALARM_VideoAlarmSetting" style="@style/New_Style_Title_Bar" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<com.ui.controls.ListSelectItem android:id="@id/lsi_alarm_switch" android:background="@drawable/ripple_round_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" app:RightClickable="false" app:ShowSwitch="true" app:ShowTopLine="false" app:Title="TR_ALARM_VideoAlarmSettingSwitch" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+			<LinearLayout android:orientation="vertical" android:id="@id/ll_alarm_function" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<LinearLayout android:orientation="vertical" android:id="@id/ll_alarm_time" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_alarm_interval" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:ShowBottomLine="true" app:ShowTopLine="false" app:Title="TR_Alarm_Push_Interval" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+					<TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/color_text_normal" android:gravity="center" android:id="@id/tv_sensitivity" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="Intelligent_sensitivity" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+					<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+						<SeekBar android:id="@id/seekbar_sensitivity" android:background="@drawable/normal_seekbar_bg" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:max="100" android:progress="50" android:progressDrawable="@drawable/new_seekbar_progress_drawable" android:thumb="@drawable/seekbar_thumb" android:splitTrack="false" android:layout_marginHorizontal="14.0dip" android:paddingVertical="6.0dip" />
+						<View android:background="@drawable/shape_white_dot" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_centerVertical="true" android:layout_marginStart="35.0dip" />
+						<View android:background="@drawable/shape_white_dot" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_centerInParent="true" />
+						<View android:background="@drawable/shape_white_dot" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_centerVertical="true" android:layout_marginEnd="35.0dip" android:layout_alignParentEnd="true" />
+					</RelativeLayout>
+					<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+						<TextView android:textSize="12.0sp" android:textColor="@color/color_text_normal" android:id="@id/tv_level_low" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Intelligent_level_Low" android:layout_marginStart="8.0dip" />
+						<TextView android:textSize="12.0sp" android:textColor="@color/color_text_normal" android:id="@id/tv_level_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Intelligent_level_Middle" android:layout_centerInParent="true" />
+						<TextView android:textSize="12.0sp" android:textColor="@color/color_text_normal" android:id="@id/tv_level_high" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Intelligent_level_Height" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+					</RelativeLayout>
+				</LinearLayout>
+				<com.ui.controls.ListSelectItem android:id="@id/lsi_remote_call" android:background="@drawable/ripple_round_btn_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" app:RightClickable="false" app:ShowSwitch="true" app:ShowTopLine="false" app:Title="TR_Remote_Call_Alarm_Set" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+				<LinearLayout android:orientation="vertical" android:id="@id/ll_smart_track" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_human_detection_track" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:RightClickable="false" app:ShowSwitch="true" app:ShowTopLine="false" app:Title="Show_traces" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_human_detection_perimeter" android:layout_width="fill_parent" android:layout_height="wrap_content" app:LineColor="@color/line_color" app:RightClickable="false" app:ShowSwitch="true" app:Title="TR_Rule_Setting" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+					<LinearLayout android:orientation="vertical" android:id="@id/ll_human_detection_perimeter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+						<com.ui.controls.ListSelectItem android:id="@id/lsi_human_detection_area" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ImageRight1="@null" app:ImageRight2="@drawable/dummy_ae_748" app:RightClickable="false" app:Title="alert_area" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+						<com.ui.controls.ListSelectItem android:id="@id/lsi_human_detection_line" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ImageRight1="@null" app:ImageRight2="@drawable/dummy_ae_748" app:LineColor="@color/line_color" app:RightClickable="false" app:Title="alert_line" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

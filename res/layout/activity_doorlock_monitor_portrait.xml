@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/monitor_title" android:layout_width="fill_parent" uilib:RightBtn_Nor="@drawable/monitor_set_selector" uilib:RightBtn_Sel="@drawable/monitor_set_selector" uilib:SecondRightBtn_Nor="@drawable/title_btn4_nor_nor" uilib:SecondRightBtn_Sel="@drawable/title_btn4_sel_nor" uilib:TitleText="monitor" style="@style/Normal_Title_Bar" />
+	<FrameLayout android:id="@id/layout_wnd" android:background="@color/video_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/monitor_title">
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<com.xworld.widget.MultiWinLayout android:id="@id/mywndviews" android:layout_width="fill_parent" android:layout_height="fill_parent" uilib:NormalFrameBg="@drawable/wnd_margin_normal" uilib:SelectedFrameBg="@drawable/wnd_margin_selected" />
+			<TextView android:textSize="11.0sp" android:textColor="@color/white" android:id="@id/show_network_speed" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.0KB/S" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+			<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="5.0dip">
+				<com.ui.controls.BatteryView android:layout_gravity="center_vertical" android:id="@id/batteryView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" uilib:battery_background="@drawable/battery_normal_bg" uilib:battery_max_level="7" uilib:fill_color="#ff91c66a" uilib:frame_padding="2.0dip" uilib:progress_type="1" />
+				<ImageView android:layout_gravity="center_vertical" android:id="@id/iv_charging" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_charging" />
+				<TextView android:textSize="10.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/txtSD" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:drawableLeft="@drawable/sd_card" android:drawableStart="@drawable/sd_card" android:layout_marginStart="2.0dip" />
+			</LinearLayout>
+			<com.ui.controls.ButtonCheck android:id="@id/corridor_mode" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" uilib:NormalBkg="@drawable/ic_lens_rotate" uilib:SelectedBkg="@drawable/ic_lens_rotate" />
+		</RelativeLayout>
+	</FrameLayout>
+	<include android:id="@id/monitor_controls_layout" android:background="@color/grey_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" layout="@layout/include_monitor_control_portrait" />
+	<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_show_notice_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/fragment_container">
+		<FrameLayout android:id="@id/fl_show_notice_img" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_show_notice_message" android:background="@color/white" android:padding="3.0dip" android:clickable="false" android:layout_width="160.0dip" android:layout_height="100.0dip" android:scaleType="fitXY" />
+			<ImageView android:layout_gravity="center" android:id="@id/iv_show_play_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dummy_ae_73f" />
+		</FrameLayout>
+		<TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_show_notice_message" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+	</LinearLayout>
+	<com.xworld.widget.TipView android:id="@id/tip_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-5.0dip" android:layout_above="@id/monitor_controls_layout" android:layout_centerHorizontal="true" />
+	<View android:id="@id/li" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/monitor_controls_layout" />
+	<FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/monitor_controls_layout" android:layout_alignParentBottom="true" />
+</RelativeLayout>

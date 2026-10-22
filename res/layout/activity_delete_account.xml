@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/delete_account_title" android:layout_width="fill_parent" uilib:TitleText="TR_UserCenter_account" style="@style/New_Style_Title_Bar" />
+	<com.ui.controls.BtnColorBK android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_error_normal" android:id="@id/logout_account" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginBottom="@dimen/double_button_margin" android:text="TR_UserCenter_delAccount" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_start" android:stateListAnimator="@null" uilib:layout_constraintTop_toBottomOf="@id/ll_bind" uilib:stroke_color="@null" style="@style/defaultButtonStyle" />
+</LinearLayout>

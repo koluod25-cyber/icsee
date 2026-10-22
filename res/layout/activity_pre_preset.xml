@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/pre_preset_title" android:layout_width="fill_parent" uilib:TitleText="config_preset" style="@style/Normal_Title_Bar" />
+	<TextView android:textSize="@dimen/small_text_size" android:textColor="@color/default_normal_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="preset_pre_tips" android:layout_centerInParent="true" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" />
+	<com.ui.controls.BtnColorBK android:id="@id/confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/button_margin_bottom" android:text="confirm" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_end" style="@style/defaultButtonStyle" />
+</RelativeLayout>

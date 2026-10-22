@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/local_image_title" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/title_height" uilib:RightBtn_Nor="@drawable/dummy_ae_920" uilib:RightBtn_Sel="@drawable/dummy_ae_920" uilib:TitleText="" style="@style/Normal_Title_Bar" />
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/save_btn">
+			<com.xworld.widget.LooperImageView android:id="@id/looperImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		</LinearLayout>
+		<ImageView android:id="@id/iv_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_alarm_no_pic" android:layout_above="@id/save_btn" />
+		<ProgressBar android:id="@id/pb_qrcode" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+		<com.ui.controls.BtnColorBK android:id="@id/save_btn" android:visibility="visible" android:layout_margin="@dimen/button_margin" android:text="set_all" android:layout_alignParentBottom="true" uilib:corners="@dimen/di_20" uilib:stroke_color="@color/theme_color" style="@style/defaultButtonStyle" />
+		<LinearLayout android:orientation="horizontal" android:id="@id/ll_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginBottom="@dimen/button_margin_bottom" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_end">
+			<com.ui.controls.ButtonCheck android:id="@id/btn_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" uilib:NormalBkg="@drawable/img_share_selector" uilib:SelectedBkg="@drawable/img_share_selector" uilib:Text="menu_share" uilib:TextNormalColor="@color/default_normal_text_color" uilib:TextSelectedColor="@color/hint_color" uilib:TextSize="@dimen/small_text_size" />
+			<com.ui.controls.ButtonCheck android:id="@id/btn_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" uilib:NormalBkg="@drawable/img_delete_selector" uilib:SelectedBkg="@drawable/img_delete_selector" uilib:Text="Delete" uilib:TextNormalColor="@color/default_normal_text_color" uilib:TextSelectedColor="@color/hint_color" uilib:TextSize="@dimen/small_text_size" />
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

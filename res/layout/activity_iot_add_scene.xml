@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xb_add_scene_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:TitleText="TR_Add_linkage" style="@style/Normal_Title_Bar" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/btn_save_scene" android:layout_below="@id/xb_add_scene_title">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<com.ui.controls.ListSelectItem android:id="@id/lsi_select_condition" android:background="@drawable/ripple_round_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/half_of_normal_margin" android:layout_marginStart="14.5dip" android:layout_marginEnd="14.5dip" app:ImageLeft1="@drawable/condition_circle_icon" app:ImageLeft2="@drawable/condition_circle_icon" app:ShowTopLine="false" app:Title="TR_Select_a_condition_IF" style="@style/margin_BaseListSelectItemStyle" />
+			<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="TR_Base_station_linkage_setting" />
+				<com.ui.controls.ListSelectItem android:id="@id/lsi_alarm_voice" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:CapColor="@color/default_normal_text_color" app:ExtraMode="Spinner" app:ImageLeft1="@drawable/ic_iot_alarm_voice" app:ImageLeft2="@drawable/ic_iot_alarm_voice" app:RightClickable="false" app:ShowTopLine="false" app:Title="TR_Base_station_alarm_tone" style="@style/margin_BaseListSelectItemStyle" />
+				<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_event_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="34.0dip" />
+				<com.ui.controls.ListSelectItem android:id="@id/lsi_alarm_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:CapColor="@color/default_normal_text_color" app:ExtraMode="Spinner" app:ImageLeft1="@drawable/ic_iot_alarm_light" app:ImageLeft2="@drawable/ic_iot_alarm_light" app:Title="TR_Base_station_alarm_light" style="@style/margin_BaseListSelectItemStyle" />
+				<com.ui.controls.ListSelectItem android:id="@id/lsi_alarm_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:CapColor="@color/default_normal_text_color" app:ExtraMode="Spinner" app:ImageLeft1="@drawable/ic_iot_alarm_duration" app:ImageLeft2="@drawable/ic_iot_alarm_duration" app:Title="TR_Alarm_duration" style="@style/margin_BaseListSelectItemStyle" />
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="TR_Camera_linkage_setting" />
+				<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_camera_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+				<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_add_camera" android:background="@drawable/ripple_round_btn_selector" android:layout_width="fill_parent" android:layout_height="@dimen/button_min_height">
+					<TextView android:textSize="24.0sp" android:textColor="@color/theme_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" android:layout_marginEnd="10.0dip" />
+					<TextView android:textSize="@dimen/middle_text_size" android:textColor="@drawable/textcolor_theme_gray_selector" android:id="@id/tv_add_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_Add_camera" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical" android:id="@id/ll_scene_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="TR_Select_the_following_scene" android:layout_marginStart="15.0dip" />
+				<LinearLayout android:orientation="horizontal" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+						<com.ui.controls.ButtonCheck android:id="@id/bc_iot_leave_home" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NormalBkg="@drawable/ic_dev_iot_leave_home_big_nor" app:SelectedBkg="@drawable/ic_dev_iot_leave_home_big_sel" />
+						<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_Leave_Home" />
+					</LinearLayout>
+					<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+						<com.ui.controls.ButtonCheck android:id="@id/bc_iot_at_home" android:layout_width="wrap_content" android:layout_height="wrap_content" app:NormalBkg="@drawable/ic_dev_iot_at_home_big_nor" app:SelectedBkg="@drawable/ic_dev_iot_at_home_big_sel" />
+						<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_At_Home" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<com.ui.controls.BtnColorBK android:id="@id/btn_save_scene" android:visibility="visible" android:layout_marginBottom="@dimen/double_button_margin" android:text="ok" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_start" style="@style/defaultButtonStyle" />
+</RelativeLayout>
