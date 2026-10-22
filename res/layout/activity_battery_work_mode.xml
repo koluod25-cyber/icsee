@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/battery_working_mode_title" android:layout_width="fill_parent" uilib:TitleText="TR_Setting_Mode_Of_Work" style="@style/New_Style_Title_Bar" />
+	<RelativeLayout android:id="@id/rl_live_recording_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+		<ImageView android:id="@id/iv_live_mode_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dummy_ae_2cf" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/iv_live_mode_select">
+			<TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_text_normal" android:id="@id/tv_normal_working_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="TR_SmartPowerMode" android:layout_marginStart="10.0dip" />
+			<TextView android:textSize="12.0sp" android:textColor="@color/color_text_light1" android:id="@id/tv_normal_working_mode_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="TR_SmartPowerTips" android:layout_marginStart="10.0dip" android:layout_marginEnd="30.0dip" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:id="@id/rl_alarm_recording_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+		<ImageView android:id="@id/iv_alarm_mode_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dummy_ae_2cf" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/iv_alarm_mode_select">
+			<TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_text_normal" android:id="@id/tv_alarm_working_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="TR_SuperPowerMode" android:layout_marginStart="10.0dip" />
+			<TextView android:textSize="12.0sp" android:textColor="@color/color_text_light1" android:id="@id/tv_alarm_working_mode_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="TR_SuperPowerTips" android:layout_marginStart="10.0dip" />
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

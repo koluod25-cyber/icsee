@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/grey_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xb_cloud_business_transfer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:LeftBtn_Nor="@drawable/ic_back_black_nor" uilib:LeftBtn_Sel="@drawable/ic_back_black_sel" uilib:TitleText="Business_Transfer" uilib:TitleTextColor="@color/default_normal_text_color" />
+	<View android:background="@color/line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+	<ImageView android:id="@id/iv_cloud_business_transfer_dev_list_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/dummy_ae_3b4" android:scaleType="center" />
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_cloud_business_transfer_dev_list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

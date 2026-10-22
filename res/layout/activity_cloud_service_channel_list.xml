@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/cloud_channel_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:TitleText="TR_Channel_Selection" style="@style/Normal_Title_Bar" />
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/tv_cloud_channel_max" android:layout_below="@id/cloud_channel_title" />
+	<TextView android:textColor="@color/gray" android:gravity="center" android:id="@id/tv_cloud_channel_max" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TR_CloudStorage_Has_Reached_The_Maximum" android:layout_alignParentBottom="true" />
+</RelativeLayout>

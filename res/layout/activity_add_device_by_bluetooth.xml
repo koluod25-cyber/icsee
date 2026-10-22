@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xtb_add_dev" android:layout_width="fill_parent" android:layout_height="wrap_content" app:TitleText="add_device" style="@style/New_Style_Title_Bar" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/xtb_add_dev">
+		<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/half_of_normal_margin">
+			<LinearLayout android:orientation="vertical" android:id="@id/ble_search_dev_lay" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0">
+				<TextView android:textSize="@dimen/text_size_content_level1" android:textStyle="bold" android:textColor="@color/color_text_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="TR_Add_Bluetooth_Searched_Device" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+				<androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_blue_dev" android:background="@drawable/corner_white_bg_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical" android:id="@id/lan_search_dev_lay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="60.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ble_search_dev_lay">
+				<TextView android:textSize="@dimen/text_size_content_level1" android:textStyle="bold" android:textColor="@color/color_text_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_Add_Lan_Add_Device" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+				<androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_lan_dev" android:background="@drawable/corner_white_bg_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+			</LinearLayout>
+		</androidx.constraintlayout.widget.ConstraintLayout>
+	</ScrollView>
+</RelativeLayout>

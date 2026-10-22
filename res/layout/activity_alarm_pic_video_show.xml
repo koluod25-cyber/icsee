@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xb_alarm_pic_video_title" android:layout_width="fill_parent" uilib:RightBtn_Nor="@drawable/icon_edit_nor" uilib:RightBtn_Sel="@drawable/icon_edit_sel" uilib:TitleText="" style="@style/Normal_Title_Bar" />
+	<RelativeLayout android:id="@id/rl_alarm_pic_video_function" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/xb_alarm_pic_video_title">
+		<FrameLayout android:id="@id/fl_alarm_pic_video_play_surface" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<com.ui.controls.XTitleBar android:id="@id/xb_alarm_pic_video_title_full" android:background="@drawable/wnd_title_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:LeftBtn_Nor="@drawable/back_nor" uilib:LeftBtn_Sel="@drawable/back_sel" uilib:TitleText="" uilib:TitleTextColor="@color/white" />
+			<com.xm.ui.media.image.XMVrImageView android:id="@id/iv_alarm_pic_video_image_surface" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" uilib:default_background="@drawable/ic_alarm_no_pic" />
+			<com.ui.controls.BatteryView android:layout_gravity="right" android:id="@id/iv_alarm_pic_video_batteryView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/half_of_normal_margin" android:layout_marginEnd="@dimen/half_of_normal_margin" uilib:battery_background="@drawable/battery_normal_bg" uilib:battery_max_level="7" uilib:fill_color="@color/red" uilib:frame_padding="2.0dip" uilib:progress_type="1" />
+			<ProgressBar android:layout_gravity="center" android:id="@id/pb_alarm_pic_video_show_wait" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<ImageView android:layout_gravity="center" android:id="@id/iv_alarm_pic_video_video_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dummy_ae_73f" />
+			<include android:layout_gravity="bottom" android:id="@id/layout_alarm_pic_video_ctrl_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_alarm_pic_video_ctrl_bar" />
+		</FrameLayout>
+		<RelativeLayout android:background="@color/dlg_calendar_date_bg" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/fl_alarm_pic_video_play_surface" android:paddingStart="10.0dip">
+			<include android:id="@id/id_include_date_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" layout="@layout/include_date_select" />
+			<com.ui.controls.ButtonCheck android:id="@id/btn_alarm_chn_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/btn_alarm_type_selector" uilib:NormalBkg="@drawable/down_arrow" uilib:SelectedBkg="@drawable/up_arrow" uilib:TextNormalColor="@color/default_normal_text_color" uilib:TextSelectedColor="@color/default_normal_text_color" uilib:leftText="TR_ALL_CHANNEL" />
+			<com.ui.controls.ButtonCheck android:id="@id/btn_alarm_type_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" uilib:NormalBkg="@drawable/down_arrow" uilib:SelectedBkg="@drawable/up_arrow" uilib:TextNormalColor="@color/default_normal_text_color" uilib:TextSelectedColor="@color/default_normal_text_color" uilib:leftText="TR_All_Info" />
+		</RelativeLayout>
+	</RelativeLayout>
+	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/pl_alarm_msg_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_alarm_pic_video_bottom" android:layout_below="@id/rl_alarm_pic_video_function">
+		<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<ImageView android:id="@id/iv_alarm_pic_video_no_msg_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dummy_ae_3b4" android:scaleType="center" />
+				<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_empty_cloud_entrance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="TR_Please_Buy_Cloud_Server" />
+					<TextView android:textColor="@android:color/white" android:id="@id/tv_jumpto_entrance" android:background="@drawable/list_cloud_unopen_shape" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:paddingRight="20.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="TR_Buy_Now" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<RelativeLayout android:orientation="horizontal" android:id="@id/ll_date_flag" android:background="@color/bg_color" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+					<TextView android:textSize="@dimen/to_small_text_size" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_date_flag" android:background="@drawable/alarm_pic_video_date_bg" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_Today" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+					<View android:id="@id/view_margin" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" android:layout_toRightOf="@id/tv_date_flag" />
+					<LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_date_flag">
+						<TextView android:textColor="@color/green_52B3AF" android:id="@id/tv_jump_cloud" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="TR_buy_Cloud_Watch_Video" />
+					</LinearLayout>
+				</RelativeLayout>
+				<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_alarm_pic_video" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+			</LinearLayout>
+		</FrameLayout>
+	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+	<FrameLayout android:id="@id/rl_alarm_pic_video_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+		<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_alarm_pic_video_turn_to" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/half_of_normal_margin" android:layout_marginBottom="@dimen/half_of_normal_margin" android:paddingStart="@dimen/button_margin_start" android:paddingEnd="@dimen/button_margin_end">
+			<com.ui.controls.BtnColorBK android:id="@id/tv_alarm_pic_video_turn_to_monitor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TR_Monitor" android:layout_weight="1.0" android:layout_marginEnd="@dimen/half_of_normal_margin" style="@style/defaultButtonStyle" />
+			<com.ui.controls.BtnColorBK android:id="@id/tv_alarm_pic_video_turn_to_cloud" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TR_Complete_Cloud_Video" android:layout_weight="1.0" android:layout_marginStart="@dimen/half_of_normal_margin" style="@style/defaultButtonStyle" />
+		</LinearLayout>
+		<include android:layout_gravity="bottom" android:id="@id/media_edit_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/menu_local_cloud_event" />
+	</FrameLayout>
+	<RelativeLayout android:id="@id/rl_alarm_pic_video_calendar" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/xb_alarm_pic_video_title">
+		<ViewStub android:id="@id/vs_alarm_pic_video_calendar" android:layout="@layout/include_calendar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/view_line" />
+		<View android:id="@id/view_line" android:background="@color/line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_above="@id/ll_calendar_bottom" />
+		<LinearLayout android:gravity="center" android:id="@id/ll_calendar_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/title_height" android:layout_alignParentBottom="true">
+			<TextView android:gravity="center" android:id="@id/tv_alarm_pic_video_calendar_cancel" android:background="@drawable/item_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/title_height" android:text="@string/Cancel" android:layout_weight="1.0" />
+			<View android:background="@color/line_color" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+			<TextView android:gravity="center" android:id="@id/tv_alarm_pic_video_calendar_ok" android:background="@drawable/item_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/title_height" android:text="@string/Ok" android:layout_weight="1.0" />
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

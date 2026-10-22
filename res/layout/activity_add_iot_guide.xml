@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xb_add_iot_guide_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:TitleText="TR_Add_IOT_device" style="@style/Normal_Title_Bar" />
+	<TextView android:gravity="center" android:id="@id/tv_add_iot_guide_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="67.5dip" android:text="TR_IOT_Pairing_tip" android:layout_below="@id/xb_add_iot_guide_title" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" />
+	<ImageView android:id="@id/iv_add_iot_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+	<com.ui.controls.BtnColorBK android:id="@id/btn_next" android:visibility="gone" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginBottom="@dimen/double_button_margin" android:text="next" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_start" style="@style/defaultButtonStyle" />
+</RelativeLayout>

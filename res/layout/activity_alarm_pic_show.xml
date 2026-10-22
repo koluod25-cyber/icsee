@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/alarm_mess_pic_title" android:layout_width="fill_parent" uilib:RightBtn_Nor="@drawable/icon_edit_nor" uilib:RightBtn_Sel="@drawable/icon_edit_sel" uilib:TitleText="look_mess" style="@style/Normal_Title_Bar" />
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_alarm_pic_show" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/media_edit_bottom" android:layout_below="@id/alarm_mess_pic_title" android:layout_marginStart="0.5dip" android:layout_marginEnd="0.5dip" />
+	<include android:layout_gravity="bottom" android:id="@id/media_edit_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true" layout="@layout/menu_mess" />
+</RelativeLayout>

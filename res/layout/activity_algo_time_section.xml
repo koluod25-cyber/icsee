@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/title_algo_time_section" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:IsShowBottomLine="false" uilib:TitleText="alarm_time" style="@style/New_Style_Title_Bar" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+		<LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<RadioGroup android:orientation="vertical" android:id="@id/rg_time_mode" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<RadioButton android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_text_normal" android:id="@id/rb_all_day" android:background="@drawable/corner_white_bg_8" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:button="@null" android:minHeight="@dimen/title_height" android:text="time_day" android:drawableRight="@drawable/on_off_sel" android:drawableEnd="@drawable/on_off_sel" android:layout_marginHorizontal="14.0dip" />
+				<RadioButton android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_text_normal" android:id="@id/rb_custom" android:background="@drawable/corner_white_bg_8" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="14.0dip" android:button="@null" android:minHeight="@dimen/title_height" android:text="time_diy" android:drawableRight="@drawable/on_off_sel" android:drawableEnd="@drawable/on_off_sel" android:layout_marginHorizontal="14.0dip" />
+			</RadioGroup>
+			<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_time_periods" android:background="@drawable/corner_white_bottom_bg_8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="20.0dip" android:nestedScrollingEnabled="false" android:layout_marginHorizontal="14.0dip" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/cancel_account_title" android:layout_width="fill_parent" uilib:TitleText="Cancel_Account" style="@style/Normal_Title_Bar" />
+	<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/cancellation_ok_btn" android:layout_below="@id/about_app_title">
+		<TextView android:textSize="20.0sp" android:textColor="@color/theme_color" android:gravity="center" android:id="@id/input_code_prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:layout_marginBottom="18.0dip" android:layout_centerHorizontal="true" />
+		<com.xworld.widget.PasswordView android:id="@id/code_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_centerInParent="true" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" uilib:cipherEnable="false" uilib:mode="rect" uilib:passwordLength="6" />
+	</LinearLayout>
+	<com.ui.controls.BtnColorBK android:id="@id/cancellation_ok_btn" android:layout_margin="@dimen/button_margin" android:text="confirm" android:layout_alignParentBottom="true" style="@style/defaultButtonStyle" />
+</RelativeLayout>

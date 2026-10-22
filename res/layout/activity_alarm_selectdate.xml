@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/taskdate_rl" android:background="#80000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:id="@id/rl_week" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="420.0dip" android:layout_alignParentBottom="true">
+		<ListView android:id="@id/lv_week" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffefeff5" android:dividerHeight="1.0px" android:layout_above="@id/rl_control" android:footerDividersEnabled="true" />
+		<RelativeLayout android:id="@id/rl_control" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_alignParentBottom="true">
+			<TextView android:id="@id/split" android:background="#ffefeff5" android:layout_width="0.5dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+			<TextView android:textSize="16.0sp" android:textColor="@color/login_page_color" android:gravity="center" android:id="@id/tv_cancel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Cancel" android:layout_toLeftOf="@id/split" android:layout_toStartOf="@id/split" />
+			<TextView android:textSize="16.0sp" android:textColor="@color/theme_color" android:gravity="center" android:id="@id/tv_sure" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Ok" android:layout_toRightOf="@id/split" android:layout_toEndOf="@id/split" />
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

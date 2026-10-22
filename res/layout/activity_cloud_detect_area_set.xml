@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/title_bar" android:layout_width="fill_parent" app:TitleText="TR_Detection_Area" style="@style/Normal_Title_Bar" />
+	<RelativeLayout android:id="@id/rl_monitor_view" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="200.0dip">
+		<RelativeLayout android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+		<com.xm.ui.widget.drawgeometry.view.DrawGeometry android:id="@id/shape_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="40.0dip">
+		<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/black" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0">
+			<TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/tv_restore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="smart_analyze_restore" android:drawableLeft="@drawable/dummy_ae_a4" android:drawablePadding="5.0dip" />
+		</LinearLayout>
+		<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/black" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_weight="1.0">
+			<TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/tv_revoke" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="smart_analyze_revoke" android:drawableLeft="@drawable/dummy_ae_a5" android:drawablePadding="5.0dip" />
+		</LinearLayout>
+	</LinearLayout>
+	<TextView android:textSize="13.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="TR_Use_Detection_Area_Tip" />
+	<com.ui.controls.BtnColorBK android:id="@id/btn_save" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="Done" app:corners="50.0dip" app:stroke_color="@color/theme_color" style="@style/ThemeButtonStyle" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/init_camera_title" android:layout_width="fill_parent" app:TitleText="TR_Camera_Linkage" style="@style/Normal_Title_Bar" />
+	<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+		<TextView android:textSize="32.0sp" android:textColor="@color/color_text_normal" android:layout_gravity="center" android:id="@id/tv_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_centerHorizontal="true" />
+		<TextView android:textSize="12.0sp" android:textColor="@color/color_text_light1" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_Camera_initialization" android:layout_centerHorizontal="true" />
+		<SeekBar android:enabled="false" android:id="@id/seekbar_init" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:maxHeight="4.0dip" android:max="100" android:progressDrawable="@drawable/seekbar_horizontal" android:minHeight="4.0dip" android:thumb="@null" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/SeekBar_Normal" />
+	</LinearLayout>
+</RelativeLayout>

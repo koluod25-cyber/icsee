@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/alarm_pic_view_title" android:layout_width="fill_parent" uilib:TitleText=" " style="@style/Normal_Title_Bar" />
+	<RelativeLayout android:layout_gravity="bottom" android:id="@id/pic_view_bottom_menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+		<View android:id="@id/edit_li" android:background="@color/line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+		<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/edit_li" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+			<com.ui.controls.ButtonCheck android:id="@id/pic_view_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" uilib:NormalBkg="@drawable/menu_share" uilib:Text="menu_share" uilib:TextNormalColor="@color/login_page_color" uilib:TextSelectedColor="@color/login_page_color" />
+			<com.ui.controls.ButtonCheck android:id="@id/pic_view_monitor" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" uilib:NormalBkg="@drawable/menu_monitor" uilib:Text="Not_Preview_Video" uilib:TextNormalColor="@color/login_page_color" uilib:TextSelectedColor="@color/login_page_color" />
+			<com.ui.controls.ButtonCheck android:id="@id/pic_view_video" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" uilib:NormalBkg="@drawable/menu_video" uilib:Text="menu_video" uilib:TextNormalColor="@color/login_page_color" uilib:TextSelectedColor="@color/login_page_color" />
+			<com.ui.controls.ButtonCheck android:id="@id/pic_view_cloud" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" uilib:NormalBkg="@drawable/menu_cloud" uilib:Text="Cloud_video" uilib:TextNormalColor="@color/login_page_color" uilib:TextSelectedColor="@color/login_page_color" />
+			<com.ui.controls.ButtonCheck android:id="@id/pic_view_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" uilib:NormalBkg="@drawable/menu_save" uilib:Text="set_all" uilib:TextNormalColor="@color/login_page_color" uilib:TextSelectedColor="@color/login_page_color" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:background="@color/deep_gray_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/pic_view_bottom_menu" android:layout_below="@id/alarm_pic_view_title">
+		<com.xworld.widget.DisplayImageView android:id="@id/pic_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" uilib:default_background="@drawable/alarm_pic_bg1" />
+	</RelativeLayout>
+	<ProgressBar android:id="@id/pb_qrcode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

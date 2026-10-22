@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xb_algo_rule_setting_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:IsShowBottomLine="false" app:TitleText="TR_Detect_Rule_Setting" style="@style/New_Style_Title_Bar" />
+	<ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<LinearLayout android:orientation="vertical" android:id="@id/ll_single_sensor_card" android:background="@drawable/corner_white_bg_8" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+				<LinearLayout android:orientation="vertical" android:id="@id/ll_rule_options" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_rule_area" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:ImageLeft1="@drawable/dummy_ae_2cf" app:ImageLeft2="@drawable/dummy_ae_2d0" app:ImageLeftHeight="22.0dip" app:ImageLeftWidth="22.0dip" app:ImageRight1="@drawable/bitmap_arrow_right_7f7f7f" app:ImageRight2="@drawable/bitmap_arrow_right_7f7f7f" app:LineColor="@color/line_color" app:LineMargin="15.0dip" app:RightClickable="false" app:ShowBottomLine="true" app:ShowTopLine="false" app:Title="alert_area" app:leftMargin="10.0dip" style="@style/new_BaseListSelectItemStyle" />
+					<com.ui.controls.ListSelectItem android:id="@id/lsi_rule_line" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:ImageLeft1="@drawable/dummy_ae_2cf" app:ImageLeft2="@drawable/dummy_ae_2d0" app:ImageLeftHeight="22.0dip" app:ImageLeftWidth="22.0dip" app:ImageRight1="@drawable/bitmap_arrow_right_7f7f7f" app:ImageRight2="@drawable/bitmap_arrow_right_7f7f7f" app:RightClickable="false" app:ShowBottomLine="false" app:ShowTopLine="false" app:Title="alert_line" app:leftMargin="10.0dip" style="@style/new_BaseListSelectItemStyle" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical" android:id="@id/ll_multi_sensor_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginHorizontal="14.0dip" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/alarm_dection_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/title_height" uilib:TitleText="add_alarm_detection_dev" style="@style/Normal_Title_Bar" />
+	<RelativeLayout android:id="@id/content" android:background="@android:color/transparent" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+		<com.xworld.widget.RadarSearchLayout android:id="@id/radar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+		<TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/tvSecond" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="180'" android:layout_centerInParent="true" />
+		<TextView android:textSize="@dimen/small_text_size" android:textColor="@color/main_bottom_color" android:gravity="center" android:id="@id/tv_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="add_alarm_detection_dev_tips" android:layout_below="@id/tvSecond" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<com.ui.controls.BtnColorBK android:layout_gravity="bottom" android:id="@id/alarm_dection_cancel_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/button_margin_bottom" android:text="cancel" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_end" style="@style/defaultButtonStyle" />
+</LinearLayout>

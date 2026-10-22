@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/advanced_set_title" android:layout_width="fill_parent" uilib:TitleText="TR_Broad_Thrends_Config" style="@style/New_Style_Title_Bar" />
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ThemeLayoutStyle">
+		<com.ui.controls.ListSelectItem android:id="@id/lis_ad_broad_trends" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:ImageRight1="@drawable/icon_off" uilib:ImageRight2="@drawable/icon_open" uilib:ItemTipColor="@color/hint_color" uilib:RightClickable="false" uilib:ShowSwitch="true" uilib:ShowTopLine="false" uilib:Title="TR_Broad_Thrends_Switch" uilib:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:textSize="15.0sp" android:textColor="@color/color_text_light1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="TR_Broad_Thrends_Config_Tips" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+			<RelativeLayout android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="@dimen/half_of_normal_margin" android:layout_centerInParent="true" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+			<RelativeLayout android:id="@id/video_cover_view" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="@dimen/half_of_normal_margin" android:layout_centerInParent="true" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+		</RelativeLayout>
+		<TextView android:textColor="@color/color_text_normal" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_borad_thrends_state" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="未开启" android:drawableLeft="@drawable/ic_cancle_or_select_bg" android:drawablePadding="5.0dip" android:layout_above="@id/btn_save_share_pic" android:layout_centerHorizontal="true" />
+	</LinearLayout>
+</LinearLayout>

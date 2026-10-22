@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xtb_after_add_dev_guide" android:layout_width="fill_parent" uilib:TitleText="TR_Dev_Config_Guide" style="@style/Normal_Title_Bar" />
+	<FrameLayout android:id="@id/after_add_dev_guide_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btn_guide_complete" android:layout_below="@id/xtb_after_add_dev_guide" />
+	<com.ui.controls.BtnColorBK android:id="@id/btn_guide_complete" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="38.0dip" android:layout_marginBottom="@dimen/button_margin_bottom" android:minHeight="@dimen/button_min_height" android:text="next" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_end" style="@style/defaultButtonStyle" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.xm.ui.widget.XTitleBar android:id="@id/nightVisionTimeTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" app:TitleText="Intelligent_duration" app:layout_constraintTop_toTopOf="parent" style="@style/New_Style_Title_Bar" />
+	<androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rlDurationTime" android:background="@drawable/corner_white_bg_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:layout_marginHorizontal="14.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>
