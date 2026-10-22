@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<com.ui.controls.BtnColorBK android:textSize="@dimen/small_text_size" android:id="@id/btn_default_dev_name" android:layout_width="wrap_content" android:layout_height="55.0dip" android:layout_marginTop="@dimen/small_margin" android:layout_marginBottom="@dimen/small_margin" android:maxLines="2" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" uilib:corners="2.0dip" uilib:no_press_solid="@color/white" uilib:no_press_text_color="@color/default_normal_text_color" uilib:pressed_solid="@color/record_alarm_color" uilib:pressed_text_color="@color/white" uilib:stroke_color="@color/line_color" style="@style/defaultButtonStyle" />
+</RelativeLayout>

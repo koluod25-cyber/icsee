@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xb_shared_users_title" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" app:IsShowBottomLine="false" app:TitleText="TR_User_of_shared" app:TitleTextColor="@color/color_text_normal" app:TitleTextSize="16.0sp" style="@style/Normal_Title_Bar" />
+	<FrameLayout android:id="@id/fl_shared_user" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ImageView android:id="@id/iv_shared_user_list_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/dummy_ae_3b4" android:scaleType="centerInside" />
+		<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_shared_user_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</FrameLayout>
+</LinearLayout>

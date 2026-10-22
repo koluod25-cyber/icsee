@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:id="@id/ll_ad" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<FrameLayout android:id="@id/fl_ad" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+			<ImageView android:id="@id/iv_logo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/welcome_new" android:scaleType="fitXY" />
+			<com.ui.controls.XTitleBar android:id="@id/xb_welcome" android:layout_width="fill_parent" android:layout_height="wrap_content" uilib:TitleRightExtraViewLayout="@layout/view_welcome_title_bar_right_layout" />
+			<ImageView android:layout_gravity="center" android:id="@id/iv_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</FrameLayout>
+		<RelativeLayout android:layout_gravity="bottom|center" android:id="@id/rl_ad_hub_logo" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip">
+			<ImageView android:background="@drawable/icon" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" />
+		</RelativeLayout>
+	</LinearLayout>
+	<FrameLayout android:id="@id/fl_guide" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<androidx.viewpager.widget.ViewPager android:id="@id/guide_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		<com.ui.controls.BtnColorBK android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/btn_enter_app" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/button_margin_bottom" android:text="TR_Enjoy_App" android:paddingStart="@dimen/normal_padding" android:paddingEnd="@dimen/normal_padding" uilib:corners="200.0dip" uilib:no_press_solid="#ff7cdbdd" uilib:pressed_solid="#ff9dedee" style="@style/defaultButtonStyle" />
+	</FrameLayout>
+</FrameLayout>

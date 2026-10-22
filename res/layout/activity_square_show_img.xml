@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/square_title" android:layout_width="fill_parent" uilib:RightBtn_Nor="@drawable/nav_add_nor" uilib:RightBtn_Sel="@drawable/nav_add_sel" uilib:TitleText="Photo_Album" style="@style/Normal_Title_Bar" />
+	<WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/square_title" />
+	<ProgressBar android:id="@id/pb" android:layout_width="fill_parent" android:layout_height="3.0dip" android:max="100" android:layout_below="@id/title_layout" style="@style/m_pb_style" />
+</RelativeLayout>

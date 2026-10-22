@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+	<RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<com.ui.controls.XTitleBar android:id="@id/web_title" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/title_height" />
+		<ProgressBar android:id="@id/progressbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="5.0dip" android:max="100" android:progressDrawable="@drawable/progressbar_bg" android:layout_alignParentTop="true" style="?android:progressBarStyleHorizontal" />
+	</RelativeLayout>
+	<WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<RelativeLayout android:id="@id/rl_cloud_web_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:textSize="20.0sp" android:id="@id/tv_web_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cloud_storage" android:layout_centerHorizontal="true" />
+		<ImageView android:id="@id/iv_web_back" android:background="@drawable/windclose_white" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_alignParentEnd="true" />
+		<com.ui.controls.dialog.LoadingView android:id="@id/waiting" android:layout_width="70.0dip" android:layout_height="20.0dip" android:layout_below="@id/tv_web_title" android:layout_centerHorizontal="true" app:loadingAuto="true" app:loadingType="round" />
+	</RelativeLayout>
+</FrameLayout>

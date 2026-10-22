@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/title_wireless_pair" android:layout_width="fill_parent" android:layout_height="wrap_content" app:IsShowBottomLine="true" app:TitleText="TR_Matching_Camera" style="@style/New_Style_Title_Bar" />
+	<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical" android:id="@id/ll_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/ThemeLayoutStyle">
+			<TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/normal_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="10.0dip" android:text="TR_Device_Search_Device_Nearby" android:layout_marginHorizontal="10.0dip" />
+			<com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="105.0dip" app:lottie_autoPlay="true" app:lottie_fileName="img/base station.json" app:lottie_loop="true" />
+			<TextView android:textSize="12.0sp" android:textColor="@color/color_text_light1" android:gravity="center" android:layout_gravity="center" android:id="@id/tvSearchSec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="20.0dip" android:text="正在配对摄像机（180’）" android:layout_marginHorizontal="30.0dip" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_above="@id/rl_config" android:layout_below="@id/ll_tips">
+			<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_chn_list" android:background="@drawable/corner_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:paddingStart="@dimen/half_of_normal_padding" android:paddingEnd="@dimen/half_of_normal_padding" android:layout_marginHorizontal="14.0dip" />
+		</LinearLayout>
+		<RelativeLayout android:id="@id/rl_config" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+			<RelativeLayout android:id="@id/rl_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btn_config">
+				<com.xworld.widget.RadarSearchLayout android:id="@id/rect_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+				<TextView android:textSize="@dimen/small_text_size" android:textColor="@color/default_normal_text_color" android:id="@id/tv_count_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+			</RelativeLayout>
+			<com.ui.controls.BtnColorBK android:gravity="center" android:id="@id/btn_config" android:layout_marginTop="@dimen/button_margin_top" android:layout_marginBottom="20.0dip" android:text="TR_Start_Pairing" android:layout_marginStart="@dimen/button_margin_start" android:layout_marginEnd="@dimen/button_margin_end" app:corners="30.0dip" app:no_press_solid="@color/transparent" app:pressed_solid="@color/transparent" app:stroke_color="@color/theme_color" app:stroke_width="1.0dip" style="@style/defaultButtonStyle" />
+		</RelativeLayout>
+	</RelativeLayout>
+</LinearLayout>

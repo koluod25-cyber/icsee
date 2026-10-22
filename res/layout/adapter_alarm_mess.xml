@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/rl_push_result_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/half_of_normal_padding" android:paddingEnd="@dimen/half_of_normal_padding">
+		<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+			<TextView android:textSize="18.0sp" android:textColor="@color/login_page_color" android:gravity="center_vertical" android:id="@id/tv_alarm_mess_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="20:23:21" android:layout_centerVertical="true" />
+			<TextView android:textSize="16.0sp" android:textColor="@color/hint_color" android:id="@id/tv_alarm_mess_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="VideoMotion" />
+		</LinearLayout>
+		<ImageView android:id="@id/iv_alarm_mess_pic" android:background="@drawable/alarm_pic_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/button_margin_top" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+	</RelativeLayout>
+	<View android:background="@color/line_color" android:layout_width="fill_parent" android:layout_height="@dimen/line_height" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:item="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:background="@drawable/bg_dialog_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:layout_centerInParent="true">
+		<LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:padding="@dimen/half_of_normal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_text_normal" android:gravity="center" android:id="@id/tv_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ddddd" android:layout_centerHorizontal="true" />
+			<TextView android:textSize="14.0sp" android:textColor="#ff464646" android:gravity="center" android:id="@id/tv_dialog_tip" android:padding="@dimen/half_of_normal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ddddd" android:layout_centerHorizontal="true" />
+		</LinearLayout>
+		<com.ui.controls.ButtonCheck android:id="@id/cbNotAgain" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/ll_content" android:layout_marginStart="20.0dip" item:NormalBkg="@drawable/nor" item:SelectedBkg="@drawable/sel" item:TextNormalColor="@color/hint_color" item:TextSelectedColor="@color/hint_color" item:rightText="not_again" />
+		<View android:id="@id/iv_dialog_divider_1" android:background="@color/line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/cbNotAgain" />
+		<LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/iv_dialog_divider_1">
+			<RelativeLayout android:gravity="center" android:id="@id/rl_dialog_negative" android:background="@drawable/btn_dlg_error_left" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0">
+				<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+					<TextView android:textSize="@dimen/middle_text_size" android:textColor="#ff666666" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_dialog_negative" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="cancel" android:layout_centerInParent="true" />
+					<TextView android:textSize="@dimen/middle_text_size" android:textColor="@color/record_alarm_color" android:layout_gravity="center" android:id="@id/tv_cancel_countdown" android:padding="5.0dip" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="s" />
+				</LinearLayout>
+			</RelativeLayout>
+			<View android:id="@id/iv_dialog_divider" android:background="@color/line_color" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="0.0" />
+			<RelativeLayout android:id="@id/rl_dialog_center" android:background="@drawable/btn_dlg_error_center" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0">
+				<TextView android:textSize="@dimen/middle_text_size" android:textColor="@color/theme_color" android:gravity="center" android:id="@id/tv_dialog_center" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TR_Never_Show" android:layout_centerInParent="true" />
+				<View android:background="@color/line_color" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="0.0" android:layout_alignParentRight="true" />
+			</RelativeLayout>
+			<RelativeLayout android:gravity="center" android:id="@id/rl_dialog_positive" android:background="@drawable/btn_dlg_error_right" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0">
+				<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+					<TextView android:textSize="@dimen/middle_text_size" android:textColor="@color/theme_color" android:gravity="center" android:id="@id/tv_dialog_positive" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="confirm" />
+					<TextView android:textSize="@dimen/middle_text_size" android:textColor="@color/record_alarm_color" android:layout_gravity="center" android:id="@id/tv_confirm_countdown" android:padding="5.0dip" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="s" />
+				</LinearLayout>
+			</RelativeLayout>
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

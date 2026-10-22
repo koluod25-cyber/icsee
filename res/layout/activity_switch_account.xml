@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/title_switch_account" android:background="@color/bg_color" android:layout_width="fill_parent" app:IsShowBottomLine="false" app:RightText="TR_Account_Manage" app:RightTextColor="@color/color_text_normal" app:RightTextSize="14.0sp" app:TitleText="TR_changeAccount" app:TitleTextColor="@color/color_text_normal" app:TitleTextSize="16.0sp" app:layout_constraintTop_toTopOf="parent" style="@style/Normal_Title_Bar" />
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/account_list" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/title_switch_account" />
+	<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_add_account" android:background="@drawable/corner_white_gray_bg" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_constraintTop_toBottomOf="@id/account_list" style="@style/ThemeLayoutStyle">
+		<TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/theme_color" android:gravity="center" android:id="@id/tv_add_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TR_addAccount" android:drawablePadding="6.0dip" />
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

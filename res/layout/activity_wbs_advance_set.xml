@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/new_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xb_wbs_advance_set_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:TitleText="advanced_set" style="@style/New_Style_Title_Bar" />
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" style="@style/ThemeLayoutStyle">
+		<com.ui.controls.ListSelectItem android:id="@id/lsi_wireless_chn_manager" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:ShowTopLine="false" app:Title="TR_Wireless_Channels_Manager" app:leftMargin="0.0dip" app:singleClick="true" style="@style/new_BaseListSelectItemStyle" />
+		<com.ui.controls.ListSelectItem android:id="@id/lsi_volume_set" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Title="Set_Dev_Audio_Volume" app:leftMargin="0.0dip" app:singleClick="true" style="@style/new_BaseListSelectItemStyle" />
+		<com.ui.controls.ListSelectItem android:id="@id/lsi_network_set" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Title="Network_setting" app:leftMargin="0.0dip" app:singleClick="true" style="@style/new_BaseListSelectItemStyle" />
+	</LinearLayout>
+	<ImageView android:id="@id/iv_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/dummy_ae_3b4" android:scaleType="center" />
+</LinearLayout>

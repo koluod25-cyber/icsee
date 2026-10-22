@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/color_bg_gary" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:LeftBtn_Nor="@drawable/back_black_selector" app:LeftBtn_Sel="@drawable/back_black_selector" app:TitleText="Generate_Panorama_Pic" app:TitleTextColor="@color/color_text_normal" />
+	<com.ui.controls.PanoramaView android:id="@id/panoramaView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+	<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+		<Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/direction_btn" android:background="@drawable/shape_theme_btn" android:layout_width="wrap_content" android:layout_height="45.0dip" android:layout_marginRight="20.0dip" android:minWidth="220.0dip" android:text="Adjust_Sitching_Direction" android:textAllCaps="false" />
+		<Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/preview_btn" android:background="@drawable/shape_theme_btn" android:layout_width="wrap_content" android:layout_height="45.0dip" android:minWidth="220.0dip" android:text="Done" android:textAllCaps="false" />
+	</LinearLayout>
+</RelativeLayout>

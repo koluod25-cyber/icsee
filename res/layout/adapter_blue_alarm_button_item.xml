@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.ListSelectItem android:id="@id/lsi_blue_button_item" android:background="@drawable/ripple_round_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:ShowTopLine="false" app:Title="TR_Connection_type" app:leftMargin="0.0dip" style="@style/new_BaseListSelectItemStyle" />
+</LinearLayout>

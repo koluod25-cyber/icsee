@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:uilib="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@id/layoutRoot" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.ui.controls.XTitleBar android:id="@id/xtb_title" android:layout_width="fill_parent" app:TitleText="Device_Update" app:singleClick="true" style="@style/Normal_Title_Bar" />
+	<LinearLayout android:orientation="vertical" android:background="@drawable/shape_corner_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+		<com.ui.controls.ListSelectItem android:id="@id/tv_current_title" android:background="@drawable/ripple_round_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:RightClickable="false" app:ShowBottomLine="true" app:ShowSwitch="false" app:ShowTopLine="false" app:Title="current_version" style="@style/No_Next_BaseListSelectItemStyle" />
+		<com.ui.controls.ListSelectItem android:id="@id/tv_new_title" android:background="@drawable/ripple_round_btn_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" app:Cap="" app:RightClickable="false" app:ShowBottomLine="true" app:ShowSwitch="false" app:ShowTopLine="false" app:Title="new_version" style="@style/margin_BaseListSelectItemStyle" />
+	</LinearLayout>
+</LinearLayout>
